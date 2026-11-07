@@ -1,0 +1,241 @@
+{
+  "positions": [
+    {
+      "episode": 32,
+      "placement_seed": 200032,
+      "xyz_m": [
+        0.11772853045098021,
+        -0.21020760580443826,
+        0.782
+      ]
+    },
+    {
+      "episode": 33,
+      "placement_seed": 200033,
+      "xyz_m": [
+        0.15148058340423307,
+        -0.17367875210734185,
+        0.782
+      ]
+    },
+    {
+      "episode": 34,
+      "placement_seed": 200034,
+      "xyz_m": [
+        0.13529047661247054,
+        -0.2055873507187961,
+        0.782
+      ]
+    },
+    {
+      "episode": 35,
+      "placement_seed": 200035,
+      "xyz_m": [
+        0.13480057971678627,
+        -0.20141999430242655,
+        0.782
+      ]
+    },
+    {
+      "episode": 36,
+      "placement_seed": 200036,
+      "xyz_m": [
+        0.15025460874425126,
+        -0.19520662667434982,
+        0.782
+      ]
+    },
+    {
+      "episode": 37,
+      "placement_seed": 200037,
+      "xyz_m": [
+        0.11439214330301285,
+        -0.16508982327558142,
+        0.782
+      ]
+    },
+    {
+      "episode": 38,
+      "placement_seed": 200038,
+      "xyz_m": [
+        0.13493530136828114,
+        -0.16803898100931042,
+        0.782
+      ]
+    },
+    {
+      "episode": 39,
+      "placement_seed": 200039,
+      "xyz_m": [
+        0.12675058959979416,
+        -0.17620262641203652,
+        0.782
+      ]
+    },
+    {
+      "episode": 0,
+      "placement_seed": 100000,
+      "xyz_m": [
+        0.15487647398397347,
+        -0.17398960025483298,
+        0.782
+      ]
+    },
+    {
+      "episode": 1,
+      "placement_seed": 100001,
+      "xyz_m": [
+        0.14759251221599354,
+        -0.17112876725723267,
+        0.782
+      ]
+    }
+  ],
+  "pilot_positions": 5,
+  "maximum_positions": 10,
+  "maximum_physical_attempts": 35,
+  "main_variants": [
+    "original",
+    "local",
+    "event"
+  ],
+  "pilot_ablation": "no_post_wait",
+  "physics_hz": 500,
+  "control_hz": 50,
+  "steps_per_action": 10,
+  "gripper": {
+    "hold_command": 0.35,
+    "plateau_aperture_ratio": 0.64,
+    "open_command": 0.99,
+    "law": "g(r)=0.35 for r<=0.64; else 0.35+(0.99-0.35)*(r-0.64)/(1-0.64)",
+    "no_elapsed_time_or_previous_command_in_target_law": true
+  },
+  "arrival_gate": {
+    "grasp_cube_distance_m_max": 0.01,
+    "orientation_error_rad_max": 0.015,
+    "max_arm_qvel_rad_s": 0.08,
+    "finger_width_m_min": 0.075,
+    "timeout_ticks": 100
+  },
+  "motion_arrival": {
+    "position_m_max": 0.015,
+    "orientation_rad_max": 0.02,
+    "arm_qvel_rad_s_max": 0.08,
+    "timeout_ticks": 100
+  },
+  "lift_gate": {
+    "aperture_ratio_max": 0.64,
+    "aperture_ratio_min": 0.6,
+    "grasp_cube_distance_m_max": 0.01,
+    "finger_speed_m_s_max": 0.008,
+    "arm_qvel_rad_s_max": 0.08,
+    "finger_force_N_min": 0.25,
+    "physics_contact_window_steps": 10,
+    "close_timeout_ticks": 200
+  },
+  "safety": {
+    "finger_speed_m_s_max": 0.12,
+    "arm_speed_rad_s_max": 2.0,
+    "gripper_actuator_force_N_max": 4.5,
+    "finger_contact_force_N_max": 4.0,
+    "command_delta_max": 0.06,
+    "lost_bilateral_contact_abort_steps": 10,
+    "joint_target_increment_rad_max": 0.03,
+    "tracking_error_rad_max": 0.12,
+    "obstacle_contact_N_max": 0.05
+  },
+  "pilot_gate": "All 5 event trials successful, no timeout/collision/limit violation; then permit 5 more positions.",
+  "ambiguity": {
+    "state_normalized_L2_max": 0.01,
+    "RGB_mean_abs_diff_0_255_max": 0.02,
+    "gripper_future_MAE_min": 0.05,
+    "joint_future_MAE_rad_min": 0.005,
+    "joint_future_max_diff_rad_min": 0.02,
+    "pair_min_separation_frames": 5,
+    "horizon": 50,
+    "exclude_padding": true,
+    "scope": "all captured RGB pairs in prespecified close-related regions; exploratory proxy, not embedding identity"
+  },
+  "remaining_clocks": [
+    "home/reset settling 50 ticks (exclude from future dataset rows)",
+    "smooth arm trajectories 3/2.5/3 seconds",
+    "final 2-second acceptance hold",
+    "safety timeouts"
+  ],
+  "forbidden": [
+    "learned policy execution",
+    "training",
+    "dataset overwrite",
+    "weight overwrite",
+    "execution-time cube qpos edits",
+    "weld",
+    "external forces"
+  ],
+  "feedback_lift": {
+    "lead_m": 0.003,
+    "reference_increment_m_max": 0.0008,
+    "tracking_residual_rad_max": 0.02,
+    "joint_target_increment_rad_max": 0.006,
+    "timeout_ticks": 1200,
+    "goal_dz_m": 0.16,
+    "law": "z_next = min(goal, z_previous+0.6mm, max(z_previous, measured_z_progress+1.5mm)); tracking residual gate",
+    "handover_ticks": 1,
+    "original_IK_tolerance_m": 0.0002
+  },
+  "admission": {
+    "positions": 10,
+    "all_successful": true,
+    "no_collision_timeout_or_bounds_violation": true,
+    "new_lift_target_delta_rad_max": 0.006,
+    "observable_conflict_gate": "frozen near-pair test plus fixed old-pair offsets and denominator audit; no threshold relaxation",
+    "collect_maximum_episodes": 1
+  },
+  "task": "Pick up the red cube and place it in the tray.",
+  "revision": "pick_place_v1_3mm_spatial_lead",
+  "task_limit_s": 30,
+  "phases": [
+    "approach",
+    "descend",
+    "grasp",
+    "lift",
+    "transport",
+    "place",
+    "release",
+    "retract",
+    "verify"
+  ],
+  "success": {
+    "interior_margin_m": 0.002,
+    "base_support_force_N_min": 0.1,
+    "support_height_tolerance_m": 0.003,
+    "linear_speed_m_s_max": 0.01,
+    "angular_speed_rad_s_max": 0.1,
+    "position_drift_m_max": 0.003,
+    "robot_cube_clearance_m_min": 0.1,
+    "independent_stable_seconds": 2.0,
+    "minimum_physics_steps": 1000,
+    "no_robot_cube_contacts": true,
+    "gripper_actual_width_m_min": 0.075,
+    "gripper_target_min": 0.98
+  },
+  "clock": "30s includes50 neutral initialization ticks; dataset excludes only these50 ticks",
+  "source_components": {
+    "robot_scene/scripted_grasp.py": "aecf4fe9266c677da1f6610644db73643b3da122799dcb122809621eb12f7685",
+    "experiments/panda_descent_feedback/correction.py": "e69a3cddc2e8f6ea08f015abdd9b2005043a1584bef0c72b01a308a25859cdd1",
+    "experiments/panda_feedback_lift/feedback.py": "ebbb1008db2b40f75c71f25562a7732bee651c4be42e5901556235e441904ff0"
+  },
+  "changes": {
+    "lift_lead_m": [
+      0.0015,
+      0.003
+    ],
+    "lift_reference_increment_m": [
+      0.0006,
+      0.0008
+    ],
+    "lift_joint_increment_rad_unchanged": 0.006,
+    "new_transport_and_support_seek": true,
+    "final_success": "released cube independently supported inside tray2s; lifting alone never counts",
+    "no_fixed2s_lift_wait": "carry contact/stability monitored through transportation, then independent2s verification after release"
+  }
+}

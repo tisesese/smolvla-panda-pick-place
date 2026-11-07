@@ -1,0 +1,38 @@
+{
+  "seed": 74610240,
+  "episodes": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "fractions": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "action_stride": 5,
+  "batch_size": 4,
+  "model": "<ORIGINAL_RUNS>/target80/target80_finish_v1/candidates/033000/pretrained_model",
+  "weights_sha256": "9d92ed62f2c47a3ddab11b7f86402ab257f6993a8c2c5465a5a063fa0bef123a",
+  "use": "Final record only; no checkpoint or parameter selection after formal tests"
+}

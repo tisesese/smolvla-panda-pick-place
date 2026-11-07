@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "episodes": 100,
+  "frames": 136589,
+  "train_episodes": 80,
+  "validation_episodes": 20,
+  "train_frames": 109268,
+  "validation_frames": 27321,
+  "dataset_bytes": 11523695116,
+  "native_RGB_validation": "Original40 exact-independent-copy proof + original native validation; new60 each full native RGB/state/action/mask check",
+  "controller_sha256": {
+    "<ORIGINAL_ASSETS>/experiments/panda_release_handoff/expert.py": "63e5ccf2c73737ab86424cc1c6b28f2a082bf43f33eb03ef4a62c9becf2adac3",
+    "<ORIGINAL_ASSETS>/experiments/panda_release_handoff/common.py": "47cd09593d3c08843108b3f4056979b01dd0b8bd3a2d3f57de0d067925ccbbb6",
+    "<ORIGINAL_ASSETS>/outputs/panda_release_handoff/contract.json": "e7c9f258ab4ee3b8f18249a92ae21787caaf1b12ff501bd042f4c211ba4ce5a3",
+    "<ORIGINAL_ASSETS>/experiments/panda_pick_place_feedback_v3/feedback.py": "1e96d0d701c08937470e2326f9bb6e9892ab89c348326e3851f699462af948c4",
+    "<ORIGINAL_ASSETS>/experiments/panda_pick_place/environment.py": "661aeb271765824484c6bf2648f0d5316c0f736cb4d6e9bd83b3d9771567a76b",
+    "<ORIGINAL_ASSETS>/experiments/panda_pick_place/scene/panda_pick_place.xml": "60232399d73f497e7a182b0b3acb67a6199093e696886b26d6ef64b534dec3b1",
+    "<ORIGINAL_ASSETS>/robot_scene/scripted_grasp.py": "aecf4fe9266c677da1f6610644db73643b3da122799dcb122809621eb12f7685",
+    "<ORIGINAL_ASSETS>/experiments/panda_descent_feedback/correction.py": "e69a3cddc2e8f6ea08f015abdd9b2005043a1584bef0c72b01a308a25859cdd1",
+    "<ORIGINAL_ASSETS>/experiments/panda_feedback_lift/feedback.py": "ebbb1008db2b40f75c71f25562a7732bee651c4be42e5901556235e441904ff0"
+  },
+  "test50_unchanged": true
+}

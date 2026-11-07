@@ -1,0 +1,1088 @@
+{
+  "train_episodes": 80,
+  "validation_episodes": 20,
+  "all_demonstrations_successful": true,
+  "total_raw_training_frames": 109268,
+  "train_bbox_xy_m": [
+    [
+      0.10588523728960217,
+      0.15340331491510034
+    ],
+    [
+      -0.21380213892316877,
+      -0.1660750345944024
+    ]
+  ],
+  "raw_training_phase_counts": {
+    "approach": 12000,
+    "descend": 10000,
+    "grasp": 3303,
+    "lift": 25014,
+    "transport": 18000,
+    "place": 19040,
+    "place_support": 5103,
+    "release": 4800,
+    "retract": 7200,
+    "verify": 4805,
+    "descend_arrival": 3
+  },
+  "release_frames_per_episode": [
+    60
+  ],
+  "final_sampling": {
+    "total_per_episode": 256,
+    "uniform_per_episode": 64,
+    "each_group_per_episode": 32,
+    "groups": [
+      "approach",
+      "descend+grasp",
+      "lift",
+      "place_support",
+      "release",
+      "retract"
+    ],
+    "minimum_release_entries": 2560,
+    "phase_labels_not_policy_input": true
+  },
+  "anchor_counts": {
+    "formal_20000_v1": {
+      "total_entries": 20480,
+      "unique_ep_frame_pairs": 20480,
+      "entries_per_episode": {
+        "0": 256,
+        "1": 256,
+        "2": 256,
+        "3": 256,
+        "4": 256,
+        "5": 256,
+        "6": 256,
+        "7": 256,
+        "8": 256,
+        "9": 256,
+        "10": 256,
+        "11": 256,
+        "12": 256,
+        "13": 256,
+        "14": 256,
+        "15": 256,
+        "16": 256,
+        "17": 256,
+        "18": 256,
+        "19": 256,
+        "20": 256,
+        "21": 256,
+        "22": 256,
+        "23": 256,
+        "24": 256,
+        "25": 256,
+        "26": 256,
+        "27": 256,
+        "28": 256,
+        "29": 256,
+        "30": 256,
+        "31": 256,
+        "40": 256,
+        "41": 256,
+        "42": 256,
+        "43": 256,
+        "44": 256,
+        "45": 256,
+        "46": 256,
+        "47": 256,
+        "48": 256,
+        "49": 256,
+        "50": 256,
+        "51": 256,
+        "52": 256,
+        "53": 256,
+        "54": 256,
+        "55": 256,
+        "56": 256,
+        "57": 256,
+        "58": 256,
+        "59": 256,
+        "60": 256,
+        "61": 256,
+        "62": 256,
+        "63": 256,
+        "64": 256,
+        "65": 256,
+        "66": 256,
+        "67": 256,
+        "68": 256,
+        "69": 256,
+        "70": 256,
+        "71": 256,
+        "72": 256,
+        "73": 256,
+        "74": 256,
+        "75": 256,
+        "76": 256,
+        "77": 256,
+        "78": 256,
+        "79": 256,
+        "80": 256,
+        "81": 256,
+        "82": 256,
+        "83": 256,
+        "84": 256,
+        "85": 256,
+        "86": 256,
+        "87": 256
+      }
+    },
+    "step6_stride5_vision_v1": {
+      "total_entries": 20480,
+      "unique_ep_frame_pairs": 19515,
+      "entries_per_episode": {
+        "0": 256,
+        "1": 256,
+        "2": 256,
+        "3": 256,
+        "4": 256,
+        "5": 256,
+        "6": 256,
+        "7": 256,
+        "8": 256,
+        "9": 256,
+        "10": 256,
+        "11": 256,
+        "12": 256,
+        "13": 256,
+        "14": 256,
+        "15": 256,
+        "16": 256,
+        "17": 256,
+        "18": 256,
+        "19": 256,
+        "20": 256,
+        "21": 256,
+        "22": 256,
+        "23": 256,
+        "24": 256,
+        "25": 256,
+        "26": 256,
+        "27": 256,
+        "28": 256,
+        "29": 256,
+        "30": 256,
+        "31": 256,
+        "40": 256,
+        "41": 256,
+        "42": 256,
+        "43": 256,
+        "44": 256,
+        "45": 256,
+        "46": 256,
+        "47": 256,
+        "48": 256,
+        "49": 256,
+        "50": 256,
+        "51": 256,
+        "52": 256,
+        "53": 256,
+        "54": 256,
+        "55": 256,
+        "56": 256,
+        "57": 256,
+        "58": 256,
+        "59": 256,
+        "60": 256,
+        "61": 256,
+        "62": 256,
+        "63": 256,
+        "64": 256,
+        "65": 256,
+        "66": 256,
+        "67": 256,
+        "68": 256,
+        "69": 256,
+        "70": 256,
+        "71": 256,
+        "72": 256,
+        "73": 256,
+        "74": 256,
+        "75": 256,
+        "76": 256,
+        "77": 256,
+        "78": 256,
+        "79": 256,
+        "80": 256,
+        "81": 256,
+        "82": 256,
+        "83": 256,
+        "84": 256,
+        "85": 256,
+        "86": 256,
+        "87": 256
+      }
+    },
+    "target80_finish_v1_training": {
+      "total_entries": 20480,
+      "unique_ep_frame_pairs": 19766,
+      "entries_per_episode": {
+        "0": 256,
+        "1": 256,
+        "2": 256,
+        "3": 256,
+        "4": 256,
+        "5": 256,
+        "6": 256,
+        "7": 256,
+        "8": 256,
+        "9": 256,
+        "10": 256,
+        "11": 256,
+        "12": 256,
+        "13": 256,
+        "14": 256,
+        "15": 256,
+        "16": 256,
+        "17": 256,
+        "18": 256,
+        "19": 256,
+        "20": 256,
+        "21": 256,
+        "22": 256,
+        "23": 256,
+        "24": 256,
+        "25": 256,
+        "26": 256,
+        "27": 256,
+        "28": 256,
+        "29": 256,
+        "30": 256,
+        "31": 256,
+        "40": 256,
+        "41": 256,
+        "42": 256,
+        "43": 256,
+        "44": 256,
+        "45": 256,
+        "46": 256,
+        "47": 256,
+        "48": 256,
+        "49": 256,
+        "50": 256,
+        "51": 256,
+        "52": 256,
+        "53": 256,
+        "54": 256,
+        "55": 256,
+        "56": 256,
+        "57": 256,
+        "58": 256,
+        "59": 256,
+        "60": 256,
+        "61": 256,
+        "62": 256,
+        "63": 256,
+        "64": 256,
+        "65": 256,
+        "66": 256,
+        "67": 256,
+        "68": 256,
+        "69": 256,
+        "70": 256,
+        "71": 256,
+        "72": 256,
+        "73": 256,
+        "74": 256,
+        "75": 256,
+        "76": 256,
+        "77": 256,
+        "78": 256,
+        "79": 256,
+        "80": 256,
+        "81": 256,
+        "82": 256,
+        "83": 256,
+        "84": 256,
+        "85": 256,
+        "86": 256,
+        "87": 256
+      }
+    }
+  },
+  "spatial_aggregates": {
+    "normal_success": {
+      "n": 45,
+      "mean_nearest_training_distance_mm": 2.9397382577601427,
+      "median_nearest_training_distance_mm": 2.722703508211966,
+      "outside_train_hull": 19,
+      "mean_train_count_within5mm": 2.022222222222222
+    },
+    "normal_failure": {
+      "n": 5,
+      "mean_nearest_training_distance_mm": 4.151873923292651,
+      "median_nearest_training_distance_mm": 4.648052277641322,
+      "outside_train_hull": 5,
+      "mean_train_count_within5mm": 0.6
+    }
+  },
+  "posthoc_low_x_band": {
+    "x_max": 0.11,
+    "train_count": 6,
+    "test_count": 11,
+    "normal_failures": 5
+  },
+  "final_positions": [
+    {
+      "index": 0,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.10638356166322324,
+        -0.20593537304275134,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.922174672847721,
+      "nearest_training_episode": 44,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 1,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.10678869532111157,
+        -0.1693426174744224,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.9105852605072224,
+      "nearest_training_episode": 42,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 4
+    },
+    {
+      "index": 2,
+      "category": "interior",
+      "normal_success": false,
+      "xyz_m": [
+        0.10651434466595398,
+        -0.21331055156031523,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.648052277641322,
+      "nearest_training_episode": 44,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 3,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1488532818523816,
+        -0.19386879091570494,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.1633792036041246,
+      "nearest_training_episode": 81,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 9
+    },
+    {
+      "index": 4,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.11428721722414543,
+        -0.1852348607545403,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.5415776384129578,
+      "nearest_training_episode": 8,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 4,
+      "training_within10mm": 8
+    },
+    {
+      "index": 5,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.11167996012699259,
+        -0.18197317848775893,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.833439898297471,
+      "nearest_training_episode": 57,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 8
+    },
+    {
+      "index": 6,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.14240621590857558,
+        -0.2099282618311939,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.982818185225489,
+      "nearest_training_episode": 67,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 8
+    },
+    {
+      "index": 7,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12887466177493895,
+        -0.20473189114203977,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.008074288671312,
+      "nearest_training_episode": 25,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 12
+    },
+    {
+      "index": 8,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.10820443246779117,
+        -0.20480502777961074,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.0298503382587905,
+      "nearest_training_episode": 44,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 1,
+      "training_within10mm": 6
+    },
+    {
+      "index": 9,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12179032959026206,
+        -0.2030632802028383,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.7681752483936457,
+      "nearest_training_episode": 29,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 9
+    },
+    {
+      "index": 10,
+      "category": "interior",
+      "normal_success": false,
+      "xyz_m": [
+        0.10542784345596623,
+        -0.21254363187747546,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.237680688874764,
+      "nearest_training_episode": 44,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 11,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13317155811267464,
+        -0.17681376159486503,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.4421100044672637,
+      "nearest_training_episode": 87,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 13
+    },
+    {
+      "index": 12,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13487995843288147,
+        -0.18923368682914254,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.4867741898422324,
+      "nearest_training_episode": 51,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 4,
+      "training_within10mm": 9
+    },
+    {
+      "index": 13,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1394198554360086,
+        -0.21137914975029198,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.3184313705540212,
+      "nearest_training_episode": 55,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 8
+    },
+    {
+      "index": 14,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.15437919632603236,
+        -0.19728953417700243,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.952607084911641,
+      "nearest_training_episode": 7,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 15,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12852228968221532,
+        -0.20493745084463905,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.0942320588345704,
+      "nearest_training_episode": 25,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 12
+    },
+    {
+      "index": 16,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.10764192354036878,
+        -0.19486489670041257,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.8555912878234697,
+      "nearest_training_episode": 54,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 17,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.14727344122804334,
+        -0.18532131038331912,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.5754016718917027,
+      "nearest_training_episode": 21,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 12
+    },
+    {
+      "index": 18,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13958536891757461,
+        -0.16822678919447775,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.177464968989634,
+      "nearest_training_episode": 77,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 9
+    },
+    {
+      "index": 19,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13276211633721688,
+        -0.16735376805669058,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.0421094701598665,
+      "nearest_training_episode": 10,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 7
+    },
+    {
+      "index": 20,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13483278360201129,
+        -0.2141142990371013,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.2541992033073788,
+      "nearest_training_episode": 28,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 3,
+      "training_within10mm": 4
+    },
+    {
+      "index": 21,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12496102582960233,
+        -0.20378110560864732,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.6260326515634067,
+      "nearest_training_episode": 62,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 5,
+      "training_within10mm": 10
+    },
+    {
+      "index": 22,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12033682969576433,
+        -0.19428134071174225,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.8618084978697467,
+      "nearest_training_episode": 71,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 10
+    },
+    {
+      "index": 23,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13746272957104633,
+        -0.1918301374538904,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.722703508211966,
+      "nearest_training_episode": 13,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 10
+    },
+    {
+      "index": 24,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1319436962125956,
+        -0.21272657713785928,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.90291863747643,
+      "nearest_training_episode": 2,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 3,
+      "training_within10mm": 6
+    },
+    {
+      "index": 25,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1315706484252693,
+        -0.19797214327765542,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.053874268470121,
+      "nearest_training_episode": 50,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 10
+    },
+    {
+      "index": 26,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.11090353069843308,
+        -0.18041649345624916,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.570437656064204,
+      "nearest_training_episode": 57,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 9
+    },
+    {
+      "index": 27,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12265564424763889,
+        -0.16819951384432047,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.8379599214815973,
+      "nearest_training_episode": 60,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 2,
+      "training_within10mm": 9
+    },
+    {
+      "index": 28,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12682986951691994,
+        -0.21257510713120373,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.8565676951533837,
+      "nearest_training_episode": 69,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 6
+    },
+    {
+      "index": 29,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.14877132386315062,
+        -0.1859161921935212,
+        0.782
+      ],
+      "nearest_training_distance_mm": 0.6993699061849695,
+      "nearest_training_episode": 12,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 9
+    },
+    {
+      "index": 30,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13943030416522462,
+        -0.17111430621780874,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.1217989400367876,
+      "nearest_training_episode": 77,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 10
+    },
+    {
+      "index": 31,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13651785445151113,
+        -0.18299486030719833,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.1117907486317686,
+      "nearest_training_episode": 16,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 1,
+      "training_within10mm": 10
+    },
+    {
+      "index": 32,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1546588731406231,
+        -0.20198893203540536,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.997560640451338,
+      "nearest_training_episode": 7,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 2,
+      "training_within10mm": 5
+    },
+    {
+      "index": 33,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1512475259630281,
+        -0.17397296054242026,
+        0.782
+      ],
+      "nearest_training_distance_mm": 5.854284387349269,
+      "nearest_training_episode": 61,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 6
+    },
+    {
+      "index": 34,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.15324851664326572,
+        -0.20130274937016696,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.5482389928472222,
+      "nearest_training_episode": 7,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 2,
+      "training_within10mm": 6
+    },
+    {
+      "index": 35,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.13920471012814734,
+        -0.2140608870030271,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.0355314919581042,
+      "nearest_training_episode": 55,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    },
+    {
+      "index": 36,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.12308661034290225,
+        -0.1735053739590577,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.420670466231409,
+      "nearest_training_episode": 9,
+      "within_training_xy_convex_hull": true,
+      "training_within5mm": 3,
+      "training_within10mm": 11
+    },
+    {
+      "index": 37,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.14053454465726423,
+        -0.21245348974762807,
+        0.782
+      ],
+      "nearest_training_distance_mm": 2.715980808959929,
+      "nearest_training_episode": 55,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 7
+    },
+    {
+      "index": 38,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.1541532989544384,
+        -0.17556913303583102,
+        0.782
+      ],
+      "nearest_training_distance_mm": 5.418951627552293,
+      "nearest_training_episode": 61,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 3
+    },
+    {
+      "index": 39,
+      "category": "interior",
+      "normal_success": true,
+      "xyz_m": [
+        0.14952369967354923,
+        -0.17052811318935912,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.2456731541653325,
+      "nearest_training_episode": 19,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 2,
+      "training_within10mm": 6
+    },
+    {
+      "index": 40,
+      "category": "boundary",
+      "normal_success": false,
+      "xyz_m": [
+        0.105,
+        -0.20082822473582848,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.1958820587171086,
+      "nearest_training_episode": 86,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 3
+    },
+    {
+      "index": 41,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.155,
+        -0.17301053885517226,
+        0.782
+      ],
+      "nearest_training_distance_mm": 8.00233567576907,
+      "nearest_training_episode": 61,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 3
+    },
+    {
+      "index": 42,
+      "category": "boundary",
+      "normal_success": false,
+      "xyz_m": [
+        0.10812616649654413,
+        -0.215,
+        0.782
+      ],
+      "nearest_training_distance_mm": 5.6714983521676485,
+      "nearest_training_episode": 66,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 5
+    },
+    {
+      "index": 43,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.14393514726006482,
+        -0.165,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.779415440693226,
+      "nearest_training_episode": 64,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 4
+    },
+    {
+      "index": 44,
+      "category": "boundary",
+      "normal_success": false,
+      "xyz_m": [
+        0.105,
+        -0.166353872377233,
+        0.782
+      ],
+      "nearest_training_distance_mm": 5.006256239062415,
+      "nearest_training_episode": 42,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 3
+    },
+    {
+      "index": 45,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.155,
+        -0.17116296793852967,
+        0.782
+      ],
+      "nearest_training_distance_mm": 7.4977422131914215,
+      "nearest_training_episode": 19,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 0,
+      "training_within10mm": 3
+    },
+    {
+      "index": 46,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.10929308231911955,
+        -0.215,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.5376048444035435,
+      "nearest_training_episode": 66,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 2,
+      "training_within10mm": 5
+    },
+    {
+      "index": 47,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.1242631342421969,
+        -0.165,
+        0.782
+      ],
+      "nearest_training_distance_mm": 3.6003705607248127,
+      "nearest_training_episode": 60,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 7
+    },
+    {
+      "index": 48,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.105,
+        -0.17427118328800614,
+        0.782
+      ],
+      "nearest_training_distance_mm": 1.958959589440395,
+      "nearest_training_episode": 47,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 2,
+      "training_within10mm": 4
+    },
+    {
+      "index": 49,
+      "category": "boundary",
+      "normal_success": true,
+      "xyz_m": [
+        0.155,
+        -0.19776243899918808,
+        0.782
+      ],
+      "nearest_training_distance_mm": 4.950643229324156,
+      "nearest_training_episode": 7,
+      "within_training_xy_convex_hull": false,
+      "training_within5mm": 1,
+      "training_within10mm": 5
+    }
+  ],
+  "interpretation": [
+    "Boundary normal success7/10 vs interior38/40 is correlated with spatial coverage, not causal proof.",
+    "Nearest initial cube distance does not measure image/state distribution along release trajectories.",
+    "Release exists in every demonstration and receives explicit sampling quota, so absent release examples is contradicted.",
+    "The catalog contains successful expert trajectories; no evidence here of added model-rollout failure-recovery demonstrations. Model-generated off-expert release states may be insufficiently covered, a hypothesis requiring ablation.",
+    "All five normal failure positions in low-x side and farther on average from nearest training position; index40 remains only1.20mm from nearest expert, so spatial sparsity alone is insufficient."
+  ]
+}

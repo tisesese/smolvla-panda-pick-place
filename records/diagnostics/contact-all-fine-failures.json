@@ -1,0 +1,242 @@
+[
+  {
+    "light": "normal",
+    "index": 0,
+    "success": true,
+    "last_bilateral": 23.719999999997732,
+    "loss_time": 23.73999999999772,
+    "loss_grip_raw": 0.598840594291687,
+    "loss_grip_issued": 0.598840594291687,
+    "loss_width": 0.05061629465618245,
+    "loss_cube_xyz": [
+      0.31449447120467555,
+      0.19356654593127087,
+      0.7985717808287243
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.45860916811547925,
+    "first_support": 22.599999999998353,
+    "first_table": null,
+    "first_full_open_command": 24.919999999997067
+  },
+  {
+    "light": "normal",
+    "index": 2,
+    "success": false,
+    "last_bilateral": 16.54000000000171,
+    "loss_time": 16.5600000000017,
+    "loss_grip_raw": 0.3405367136001587,
+    "loss_grip_issued": 0.3405367136001587,
+    "loss_width": 0.04969818022480767,
+    "loss_cube_xyz": [
+      0.27009262741545964,
+      0.10851190171684429,
+      0.9193353681269161
+    ],
+    "loss_cube_within": false,
+    "loss_support": 0.0,
+    "first_support": 16.7400000000016,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "normal",
+    "index": 10,
+    "success": false,
+    "last_bilateral": 17.240000000001324,
+    "loss_time": 17.260000000001313,
+    "loss_grip_raw": 0.35297438502311707,
+    "loss_grip_issued": 0.35297438502311707,
+    "loss_width": 0.04932912041506193,
+    "loss_cube_xyz": [
+      0.2993464824902725,
+      0.15804271847646462,
+      0.9178933666672973
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 17.420000000001224,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "normal",
+    "index": 40,
+    "success": false,
+    "last_bilateral": 21.01999999999923,
+    "loss_time": 21.039999999999218,
+    "loss_grip_raw": 0.3444851040840149,
+    "loss_grip_issued": 0.3444851040840149,
+    "loss_width": 0.04952763905690822,
+    "loss_cube_xyz": [
+      0.3162086772255112,
+      0.19397220934309828,
+      0.8333589152333459
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 21.119999999999173,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "normal",
+    "index": 42,
+    "success": false,
+    "last_bilateral": 19.819999999999894,
+    "loss_time": 19.839999999999883,
+    "loss_grip_raw": 0.3510637581348419,
+    "loss_grip_issued": 0.3510637581348419,
+    "loss_width": 0.049400128960697245,
+    "loss_cube_xyz": [
+      0.3160455633483846,
+      0.19472262417281366,
+      0.8774566468923128
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 19.959999999999816,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "normal",
+    "index": 44,
+    "success": false,
+    "last_bilateral": 17.180000000001357,
+    "loss_time": 17.200000000001346,
+    "loss_grip_raw": 0.34563350677490234,
+    "loss_grip_issued": 0.34563350677490234,
+    "loss_width": 0.04921870534907527,
+    "loss_cube_xyz": [
+      0.30494290045029954,
+      0.17668786072515133,
+      0.9192887567432971
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 17.360000000001257,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "dim",
+    "index": 0,
+    "success": true,
+    "last_bilateral": 23.7799999999977,
+    "loss_time": 23.799999999997688,
+    "loss_grip_raw": 0.6184009313583374,
+    "loss_grip_issued": 0.6184009313583374,
+    "loss_width": 0.050716617537636594,
+    "loss_cube_xyz": [
+      0.3143649534872841,
+      0.20859392760436823,
+      0.798828598334562
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.7793203302103876,
+    "first_support": 22.599999999998353,
+    "first_table": null,
+    "first_full_open_command": 24.89999999999708
+  },
+  {
+    "light": "dim",
+    "index": 40,
+    "success": false,
+    "last_bilateral": 20.299999999999628,
+    "loss_time": 20.319999999999617,
+    "loss_grip_raw": 0.3487430810928345,
+    "loss_grip_issued": 0.3487430810928345,
+    "loss_width": 0.048644234451728066,
+    "loss_cube_xyz": [
+      0.31700300575755697,
+      0.19557883243698504,
+      0.8578326801471352
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 20.41999999999956,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "dim",
+    "index": 42,
+    "success": true,
+    "last_bilateral": 23.659999999997765,
+    "loss_time": 23.679999999997754,
+    "loss_grip_raw": 0.5069356560707092,
+    "loss_grip_issued": 0.5069356560707092,
+    "loss_width": 0.050100514813383554,
+    "loss_cube_xyz": [
+      0.31494361292832834,
+      0.192890855958782,
+      0.790289262118669
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.7774461884536098,
+    "first_support": 22.45999999999843,
+    "first_table": null,
+    "first_full_open_command": 24.8599999999971
+  },
+  {
+    "light": "dim",
+    "index": 44,
+    "success": false,
+    "last_bilateral": 16.840000000001545,
+    "loss_time": 16.860000000001534,
+    "loss_grip_raw": 0.34745851159095764,
+    "loss_grip_issued": 0.34745851159095764,
+    "loss_width": 0.048394981931036654,
+    "loss_cube_xyz": [
+      0.2888434560704024,
+      0.1470400698244751,
+      0.9175278182892261
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 17.000000000001457,
+    "first_table": null,
+    "first_full_open_command": null
+  },
+  {
+    "light": "dim",
+    "index": 2,
+    "success": false,
+    "last_bilateral": 16.320000000001833,
+    "loss_time": 16.340000000001822,
+    "loss_grip_raw": 0.34177911281585693,
+    "loss_grip_issued": 0.34177911281585693,
+    "loss_width": 0.049422839895372946,
+    "loss_cube_xyz": [
+      0.2522143620064159,
+      0.07106586283313153,
+      0.9170103846509898
+    ],
+    "loss_cube_within": false,
+    "loss_support": 0.0,
+    "first_support": null,
+    "first_table": 16.660000000001645,
+    "first_full_open_command": null
+  },
+  {
+    "light": "dim",
+    "index": 10,
+    "success": false,
+    "last_bilateral": 18.02000000000089,
+    "loss_time": 18.04000000000088,
+    "loss_grip_raw": 0.3475622534751892,
+    "loss_grip_issued": 0.3475622534751892,
+    "loss_width": 0.04886843628237276,
+    "loss_cube_xyz": [
+      0.31271094720221704,
+      0.19036922400625544,
+      0.919664004294948
+    ],
+    "loss_cube_within": true,
+    "loss_support": 0.0,
+    "first_support": 18.180000000000803,
+    "first_table": null,
+    "first_full_open_command": null
+  }
+]

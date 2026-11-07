@@ -1,0 +1,19 @@
+{
+  "fp32_modules": [
+    "model.vlm_with_expert.vlm.model.text_model.layers.12",
+    "model.vlm_with_expert.vlm.model.text_model.layers.13",
+    "model.vlm_with_expert.vlm.model.connector.modality_projection.proj",
+    "model.vlm_with_expert.vlm.model.vision_model.encoder.layers.11"
+  ],
+  "parent_optimizer_steps": 27000,
+  "description": "Continue the 27k policy with separate support/release/retract sampling and a lower learning rate",
+  "image_crop_xyxy": [
+    240,
+    140,
+    480,
+    380
+  ],
+  "action_stride": 5,
+  "execution_window": 10,
+  "sampling_plan": "completion"
+}

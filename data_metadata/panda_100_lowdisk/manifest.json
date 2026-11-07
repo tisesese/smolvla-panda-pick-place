@@ -1,0 +1,1608 @@
+{
+  "repo_id": "local/panda_pick_place_100_lowdisk",
+  "dataset_root": "data/lerobot_panda_pick_place_100_lowdisk",
+  "episodes": [
+    {
+      "episode": 0,
+      "frames": 1364,
+      "position": {
+        "seed": 820000,
+        "xyz_m": [
+          0.11210276921346704,
+          -0.21090703070434066,
+          0.782
+        ],
+        "episode": 0,
+        "role": "train",
+        "origin": "same_original_pilot_position_new_controller",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 1,
+      "frames": 1366,
+      "position": {
+        "seed": 820001,
+        "xyz_m": [
+          0.11827855634609735,
+          -0.20010407013852,
+          0.782
+        ],
+        "episode": 1,
+        "role": "train",
+        "origin": "same_original_pilot_position_new_controller",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 2,
+      "frames": 1366,
+      "position": {
+        "seed": 820002,
+        "xyz_m": [
+          0.13109226424857118,
+          -0.21242603483378247,
+          0.782
+        ],
+        "episode": 2,
+        "role": "train",
+        "origin": "same_original_pilot_position_new_controller",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 3,
+      "frames": 1365,
+      "position": {
+        "episode": 3,
+        "seed": 840000,
+        "xyz_m": [
+          0.11173538597303408,
+          -0.20977116934320564,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 4,
+      "frames": 1365,
+      "position": {
+        "episode": 4,
+        "seed": 840001,
+        "xyz_m": [
+          0.12213269094089502,
+          -0.20985826774904148,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 5,
+      "frames": 1366,
+      "position": {
+        "episode": 5,
+        "seed": 840002,
+        "xyz_m": [
+          0.1288582979327984,
+          -0.2016829498093399,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 6,
+      "frames": 1365,
+      "position": {
+        "episode": 6,
+        "seed": 840003,
+        "xyz_m": [
+          0.14317939265212665,
+          -0.20164706282301914,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 7,
+      "frames": 1365,
+      "position": {
+        "episode": 7,
+        "seed": 840004,
+        "xyz_m": [
+          0.15170830718645067,
+          -0.20146022574334746,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 8,
+      "frames": 1368,
+      "position": {
+        "episode": 8,
+        "seed": 840005,
+        "xyz_m": [
+          0.1134334800931204,
+          -0.1839512741675256,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 9,
+      "frames": 1366,
+      "position": {
+        "episode": 9,
+        "seed": 840006,
+        "xyz_m": [
+          0.12067765561006763,
+          -0.17374324493509027,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 10,
+      "frames": 1367,
+      "position": {
+        "episode": 10,
+        "seed": 840007,
+        "xyz_m": [
+          0.1309540228093694,
+          -0.16980024058320553,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 11,
+      "frames": 1367,
+      "position": {
+        "episode": 11,
+        "seed": 840008,
+        "xyz_m": [
+          0.14035483183158054,
+          -0.17779772328450744,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 12,
+      "frames": 1363,
+      "position": {
+        "episode": 12,
+        "seed": 840009,
+        "xyz_m": [
+          0.14936411607529956,
+          -0.18628729279833442,
+          0.782
+        ],
+        "role": "train",
+        "origin": "new_10_position_physics_regression",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 13,
+      "frames": 1365,
+      "position": {
+        "episode": 13,
+        "seed": 850013,
+        "xyz_m": [
+          0.13893186459484008,
+          -0.18953781184972937,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 14,
+      "frames": 1367,
+      "position": {
+        "episode": 14,
+        "seed": 850014,
+        "xyz_m": [
+          0.13416621641184648,
+          -0.17277059654435775,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 15,
+      "frames": 1366,
+      "position": {
+        "episode": 15,
+        "seed": 850015,
+        "xyz_m": [
+          0.12843684541820244,
+          -0.16815352879511983,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 16,
+      "frames": 1366,
+      "position": {
+        "episode": 16,
+        "seed": 850016,
+        "xyz_m": [
+          0.13523867023492586,
+          -0.18467514239840976,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 17,
+      "frames": 1366,
+      "position": {
+        "episode": 17,
+        "seed": 850017,
+        "xyz_m": [
+          0.1522858597984441,
+          -0.19034617130467057,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 18,
+      "frames": 1366,
+      "position": {
+        "episode": 18,
+        "seed": 850018,
+        "xyz_m": [
+          0.12078179973670555,
+          -0.1868208790569772,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 19,
+      "frames": 1364,
+      "position": {
+        "episode": 19,
+        "seed": 850019,
+        "xyz_m": [
+          0.14848423550295575,
+          -0.16745339231394263,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 20,
+      "frames": 1369,
+      "position": {
+        "episode": 20,
+        "seed": 850020,
+        "xyz_m": [
+          0.11863892738275263,
+          -0.17109341618502447,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 21,
+      "frames": 1365,
+      "position": {
+        "episode": 21,
+        "seed": 850021,
+        "xyz_m": [
+          0.14770287087443262,
+          -0.18570429506032035,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 22,
+      "frames": 1367,
+      "position": {
+        "episode": 22,
+        "seed": 850022,
+        "xyz_m": [
+          0.125940934217208,
+          -0.17537014888307986,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 23,
+      "frames": 1366,
+      "position": {
+        "episode": 23,
+        "seed": 850023,
+        "xyz_m": [
+          0.12447489696022931,
+          -0.18573657921695508,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 24,
+      "frames": 1366,
+      "position": {
+        "episode": 24,
+        "seed": 850024,
+        "xyz_m": [
+          0.11358175086829894,
+          -0.21122018197067022,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 25,
+      "frames": 1366,
+      "position": {
+        "episode": 25,
+        "seed": 850025,
+        "xyz_m": [
+          0.12806743012143762,
+          -0.2028932124299184,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 26,
+      "frames": 1365,
+      "position": {
+        "episode": 26,
+        "seed": 850026,
+        "xyz_m": [
+          0.1425961430387337,
+          -0.2064362016608038,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 27,
+      "frames": 1366,
+      "position": {
+        "episode": 27,
+        "seed": 850027,
+        "xyz_m": [
+          0.1413993258799421,
+          -0.17540090189368618,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 28,
+      "frames": 1365,
+      "position": {
+        "episode": 28,
+        "seed": 850028,
+        "xyz_m": [
+          0.13436629112523224,
+          -0.21089370946003394,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 29,
+      "frames": 1366,
+      "position": {
+        "episode": 29,
+        "seed": 850029,
+        "xyz_m": [
+          0.12103540466175727,
+          -0.2032053420364414,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 30,
+      "frames": 1367,
+      "position": {
+        "episode": 30,
+        "seed": 850030,
+        "xyz_m": [
+          0.11327543887597333,
+          -0.18703181688853882,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 31,
+      "frames": 1367,
+      "position": {
+        "episode": 31,
+        "seed": 850031,
+        "xyz_m": [
+          0.11217667800132636,
+          -0.17527853235309737,
+          0.782
+        ],
+        "role": "train",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 32,
+      "frames": 1366,
+      "position": {
+        "episode": 32,
+        "seed": 850032,
+        "xyz_m": [
+          0.12895340410307934,
+          -0.1962607582135409,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 33,
+      "frames": 1366,
+      "position": {
+        "episode": 33,
+        "seed": 850033,
+        "xyz_m": [
+          0.1088222872030129,
+          -0.2025374177192588,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 34,
+      "frames": 1364,
+      "position": {
+        "episode": 34,
+        "seed": 850034,
+        "xyz_m": [
+          0.14586029560617594,
+          -0.21286939802066965,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 35,
+      "frames": 1367,
+      "position": {
+        "episode": 35,
+        "seed": 850035,
+        "xyz_m": [
+          0.10991440281242093,
+          -0.19089462127014128,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 36,
+      "frames": 1366,
+      "position": {
+        "episode": 36,
+        "seed": 850036,
+        "xyz_m": [
+          0.12658305753408103,
+          -0.2029593387957356,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 37,
+      "frames": 1366,
+      "position": {
+        "episode": 37,
+        "seed": 850037,
+        "xyz_m": [
+          0.15397392645999608,
+          -0.170430753556974,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 38,
+      "frames": 1366,
+      "position": {
+        "episode": 38,
+        "seed": 850038,
+        "xyz_m": [
+          0.1505289538609869,
+          -0.20894218037029716,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 39,
+      "frames": 1367,
+      "position": {
+        "episode": 39,
+        "seed": 850039,
+        "xyz_m": [
+          0.10566655196590724,
+          -0.17739721150298257,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "spatially_stratified_9x3_permutation",
+        "origin_existing_data": true
+      }
+    },
+    {
+      "episode": 40,
+      "frames": 1368,
+      "position": {
+        "episode": 40,
+        "seed": 980000,
+        "xyz_m": [
+          0.1179094058796269,
+          -0.1698519302560623,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 52
+      }
+    },
+    {
+      "episode": 41,
+      "frames": 1363,
+      "position": {
+        "episode": 41,
+        "seed": 980001,
+        "xyz_m": [
+          0.1444027198328763,
+          -0.1937974986820813,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 27
+      }
+    },
+    {
+      "episode": 42,
+      "frames": 1367,
+      "position": {
+        "episode": 42,
+        "seed": 980002,
+        "xyz_m": [
+          0.10629765617113891,
+          -0.1711890238735831,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 50
+      }
+    },
+    {
+      "episode": 43,
+      "frames": 1365,
+      "position": {
+        "episode": 43,
+        "seed": 980003,
+        "xyz_m": [
+          0.14156893441597262,
+          -0.17719068211259079,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 47
+      }
+    },
+    {
+      "episode": 44,
+      "frames": 1365,
+      "position": {
+        "episode": 44,
+        "seed": 980004,
+        "xyz_m": [
+          0.10726066647593957,
+          -0.2087228076995895,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 0
+      }
+    },
+    {
+      "episode": 45,
+      "frames": 1367,
+      "position": {
+        "episode": 45,
+        "seed": 980005,
+        "xyz_m": [
+          0.12870878023135884,
+          -0.17497175226806383,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 44
+      }
+    },
+    {
+      "episode": 46,
+      "frames": 1367,
+      "position": {
+        "episode": 46,
+        "seed": 980006,
+        "xyz_m": [
+          0.12923498184512522,
+          -0.18546348777477703,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 34
+      }
+    },
+    {
+      "episode": 47,
+      "frames": 1367,
+      "position": {
+        "episode": 47,
+        "seed": 980007,
+        "xyz_m": [
+          0.10588523728960217,
+          -0.1760187180127422,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 40
+      }
+    },
+    {
+      "episode": 48,
+      "frames": 1367,
+      "position": {
+        "episode": 48,
+        "seed": 980008,
+        "xyz_m": [
+          0.13824470685595694,
+          -0.18775382320773254,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 36
+      }
+    },
+    {
+      "episode": 49,
+      "frames": 1364,
+      "position": {
+        "episode": 49,
+        "seed": 980009,
+        "xyz_m": [
+          0.13694445701297805,
+          -0.1974999029811451,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 26
+      }
+    },
+    {
+      "episode": 50,
+      "frames": 1365,
+      "position": {
+        "episode": 50,
+        "seed": 980010,
+        "xyz_m": [
+          0.1343066599996246,
+          -0.1949807995579271,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 25
+      }
+    },
+    {
+      "episode": 51,
+      "frames": 1366,
+      "position": {
+        "episode": 51,
+        "seed": 980011,
+        "xyz_m": [
+          0.13421274886813297,
+          -0.1879050300306091,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 35
+      }
+    },
+    {
+      "episode": 52,
+      "frames": 1365,
+      "position": {
+        "episode": 52,
+        "seed": 980012,
+        "xyz_m": [
+          0.1516935021216118,
+          -0.20294469344337365,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 19
+      }
+    },
+    {
+      "episode": 53,
+      "frames": 1366,
+      "position": {
+        "episode": 53,
+        "seed": 980013,
+        "xyz_m": [
+          0.12620656584767714,
+          -0.200069404904314,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 14
+      }
+    },
+    {
+      "episode": 54,
+      "frames": 1365,
+      "position": {
+        "episode": 54,
+        "seed": 980014,
+        "xyz_m": [
+          0.1094973386146225,
+          -0.1948904687491846,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 20
+      }
+    },
+    {
+      "episode": 55,
+      "frames": 1364,
+      "position": {
+        "episode": 55,
+        "seed": 980015,
+        "xyz_m": [
+          0.13810992752633344,
+          -0.2112296500836869,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 6
+      }
+    },
+    {
+      "episode": 56,
+      "frames": 1365,
+      "position": {
+        "episode": 56,
+        "seed": 980016,
+        "xyz_m": [
+          0.1481513992550716,
+          -0.20432756201355196,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 18
+      }
+    },
+    {
+      "episode": 57,
+      "frames": 1367,
+      "position": {
+        "episode": 57,
+        "seed": 980017,
+        "xyz_m": [
+          0.11237143496341066,
+          -0.18367122572245814,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 31
+      }
+    },
+    {
+      "episode": 58,
+      "frames": 1366,
+      "position": {
+        "episode": 58,
+        "seed": 980018,
+        "xyz_m": [
+          0.10650764200610607,
+          -0.18789093769292287,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 30
+      }
+    },
+    {
+      "episode": 59,
+      "frames": 1365,
+      "position": {
+        "episode": 59,
+        "seed": 980019,
+        "xyz_m": [
+          0.1513786207475808,
+          -0.18640790271829555,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 39
+      }
+    },
+    {
+      "episode": 60,
+      "frames": 1366,
+      "position": {
+        "episode": 60,
+        "seed": 980020,
+        "xyz_m": [
+          0.12194528076039635,
+          -0.16775503600910024,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 53
+      }
+    },
+    {
+      "episode": 61,
+      "frames": 1366,
+      "position": {
+        "episode": 61,
+        "seed": 980021,
+        "xyz_m": [
+          0.15077781421243044,
+          -0.17980837111574857,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 49
+      }
+    },
+    {
+      "episode": 62,
+      "frames": 1366,
+      "position": {
+        "episode": 62,
+        "seed": 980022,
+        "xyz_m": [
+          0.12274687423238707,
+          -0.2023691636156369,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 13
+      }
+    },
+    {
+      "episode": 63,
+      "frames": 1366,
+      "position": {
+        "episode": 63,
+        "seed": 980023,
+        "xyz_m": [
+          0.15340331491510034,
+          -0.2095616535326627,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 9
+      }
+    },
+    {
+      "episode": 64,
+      "frames": 1366,
+      "position": {
+        "episode": 64,
+        "seed": 980024,
+        "xyz_m": [
+          0.14370862627375497,
+          -0.16977404442768373,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 57
+      }
+    },
+    {
+      "episode": 65,
+      "frames": 1366,
+      "position": {
+        "episode": 65,
+        "seed": 980025,
+        "xyz_m": [
+          0.12408861281452793,
+          -0.1834891127280044,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 33
+      }
+    },
+    {
+      "episode": 66,
+      "frames": 1364,
+      "position": {
+        "episode": 66,
+        "seed": 980026,
+        "xyz_m": [
+          0.11366972333302133,
+          -0.21380213892316877,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 1
+      }
+    },
+    {
+      "episode": 67,
+      "frames": 1365,
+      "position": {
+        "episode": 67,
+        "seed": 980027,
+        "xyz_m": [
+          0.14319160152012975,
+          -0.20810761980245113,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 7
+      }
+    },
+    {
+      "episode": 68,
+      "frames": 1368,
+      "position": {
+        "episode": 68,
+        "seed": 980028,
+        "xyz_m": [
+          0.11236408985279094,
+          -0.1714838637532527,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 51
+      }
+    },
+    {
+      "episode": 69,
+      "frames": 1365,
+      "position": {
+        "episode": 69,
+        "seed": 980029,
+        "xyz_m": [
+          0.12703550045010575,
+          -0.2134066263045831,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 4
+      }
+    },
+    {
+      "episode": 70,
+      "frames": 1366,
+      "position": {
+        "episode": 70,
+        "seed": 980030,
+        "xyz_m": [
+          0.1488324213468967,
+          -0.1660750345944024,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 58
+      }
+    },
+    {
+      "episode": 71,
+      "frames": 1367,
+      "position": {
+        "episode": 71,
+        "seed": 980031,
+        "xyz_m": [
+          0.11684131665476793,
+          -0.19592297205112486,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 22
+      }
+    },
+    {
+      "episode": 72,
+      "frames": 1368,
+      "position": {
+        "episode": 72,
+        "seed": 980032,
+        "xyz_m": [
+          0.1190729123683679,
+          -0.1789265736852105,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 42
+      }
+    },
+    {
+      "episode": 73,
+      "frames": 1365,
+      "position": {
+        "episode": 73,
+        "seed": 980033,
+        "xyz_m": [
+          0.14094755278780324,
+          -0.1855566167315967,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 37
+      }
+    },
+    {
+      "episode": 74,
+      "frames": 1367,
+      "position": {
+        "episode": 74,
+        "seed": 980034,
+        "xyz_m": [
+          0.12714099190117695,
+          -0.17177922840016938,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 54
+      }
+    },
+    {
+      "episode": 75,
+      "frames": 1364,
+      "position": {
+        "episode": 75,
+        "seed": 980035,
+        "xyz_m": [
+          0.1342215676321623,
+          -0.20395839504698995,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 15
+      }
+    },
+    {
+      "episode": 76,
+      "frames": 1365,
+      "position": {
+        "episode": 76,
+        "seed": 980036,
+        "xyz_m": [
+          0.1366924683328032,
+          -0.20162895703412867,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 16
+      }
+    },
+    {
+      "episode": 77,
+      "frames": 1366,
+      "position": {
+        "episode": 77,
+        "seed": 980037,
+        "xyz_m": [
+          0.1363211412736764,
+          -0.17083370911191792,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 56
+      }
+    },
+    {
+      "episode": 78,
+      "frames": 1367,
+      "position": {
+        "episode": 78,
+        "seed": 980038,
+        "xyz_m": [
+          0.12682857335086334,
+          -0.19095832301466242,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 24
+      }
+    },
+    {
+      "episode": 79,
+      "frames": 1366,
+      "position": {
+        "episode": 79,
+        "seed": 980039,
+        "xyz_m": [
+          0.1236892731039359,
+          -0.19213563734994812,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 23
+      }
+    },
+    {
+      "episode": 80,
+      "frames": 1364,
+      "position": {
+        "episode": 80,
+        "seed": 980040,
+        "xyz_m": [
+          0.14424146032303387,
+          -0.20525237670276109,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 17
+      }
+    },
+    {
+      "episode": 81,
+      "frames": 1366,
+      "position": {
+        "episode": 81,
+        "seed": 980041,
+        "xyz_m": [
+          0.14576427707786574,
+          -0.19455071282385367,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 28
+      }
+    },
+    {
+      "episode": 82,
+      "frames": 1368,
+      "position": {
+        "episode": 82,
+        "seed": 980042,
+        "xyz_m": [
+          0.11804804914196891,
+          -0.18498797890871785,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 32
+      }
+    },
+    {
+      "episode": 83,
+      "frames": 1366,
+      "position": {
+        "episode": 83,
+        "seed": 980043,
+        "xyz_m": [
+          0.14591635116024973,
+          -0.1773828511435998,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 48
+      }
+    },
+    {
+      "episode": 84,
+      "frames": 1365,
+      "position": {
+        "episode": 84,
+        "seed": 980044,
+        "xyz_m": [
+          0.12323265764967392,
+          -0.2098055479399714,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 3
+      }
+    },
+    {
+      "episode": 85,
+      "frames": 1365,
+      "position": {
+        "episode": 85,
+        "seed": 980045,
+        "xyz_m": [
+          0.14696082882126849,
+          -0.20754989328222384,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 8
+      }
+    },
+    {
+      "episode": 86,
+      "frames": 1366,
+      "position": {
+        "episode": 86,
+        "seed": 980046,
+        "xyz_m": [
+          0.1059702779882455,
+          -0.20012915784068344,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 10
+      }
+    },
+    {
+      "episode": 87,
+      "frames": 1367,
+      "position": {
+        "episode": 87,
+        "seed": 980047,
+        "xyz_m": [
+          0.13248664762784618,
+          -0.17554467574561897,
+          0.782
+        ],
+        "role": "train",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 45
+      }
+    },
+    {
+      "episode": 88,
+      "frames": 1366,
+      "position": {
+        "episode": 88,
+        "seed": 980048,
+        "xyz_m": [
+          0.14770754560455301,
+          -0.18289728806142047,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 38
+      }
+    },
+    {
+      "episode": 89,
+      "frames": 1367,
+      "position": {
+        "episode": 89,
+        "seed": 980049,
+        "xyz_m": [
+          0.11347562442673098,
+          -0.1807968535902761,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 41
+      }
+    },
+    {
+      "episode": 90,
+      "frames": 1364,
+      "position": {
+        "episode": 90,
+        "seed": 980050,
+        "xyz_m": [
+          0.11926590978668485,
+          -0.21128472840409374,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 2
+      }
+    },
+    {
+      "episode": 91,
+      "frames": 1365,
+      "position": {
+        "episode": 91,
+        "seed": 980051,
+        "xyz_m": [
+          0.15240025764775034,
+          -0.16898262931916888,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 59
+      }
+    },
+    {
+      "episode": 92,
+      "frames": 1366,
+      "position": {
+        "episode": 92,
+        "seed": 980052,
+        "xyz_m": [
+          0.11675999336384421,
+          -0.20144449672040465,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 12
+      }
+    },
+    {
+      "episode": 93,
+      "frames": 1366,
+      "position": {
+        "episode": 93,
+        "seed": 980053,
+        "xyz_m": [
+          0.11432175331533985,
+          -0.20105807167665044,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 11
+      }
+    },
+    {
+      "episode": 94,
+      "frames": 1367,
+      "position": {
+        "episode": 94,
+        "seed": 980054,
+        "xyz_m": [
+          0.13274536774208995,
+          -0.16984987718880462,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 55
+      }
+    },
+    {
+      "episode": 95,
+      "frames": 1365,
+      "position": {
+        "episode": 95,
+        "seed": 980055,
+        "xyz_m": [
+          0.15334056006047486,
+          -0.19440585538637944,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 29
+      }
+    },
+    {
+      "episode": 96,
+      "frames": 1367,
+      "position": {
+        "episode": 96,
+        "seed": 980056,
+        "xyz_m": [
+          0.1375911064726552,
+          -0.17991300881222444,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 46
+      }
+    },
+    {
+      "episode": 97,
+      "frames": 1367,
+      "position": {
+        "episode": 97,
+        "seed": 980057,
+        "xyz_m": [
+          0.11398775226959318,
+          -0.19504832745447742,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 21
+      }
+    },
+    {
+      "episode": 98,
+      "frames": 1368,
+      "position": {
+        "episode": 98,
+        "seed": 980058,
+        "xyz_m": [
+          0.12367894157240397,
+          -0.17972152109734504,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 43
+      }
+    },
+    {
+      "episode": 99,
+      "frames": 1365,
+      "position": {
+        "episode": 99,
+        "seed": 980059,
+        "xyz_m": [
+          0.1308743449352986,
+          -0.21359847756185213,
+          0.782
+        ],
+        "role": "validation",
+        "origin": "preregistered_stratified_10x6_cell_new_physical_episode",
+        "stratum": 5
+      }
+    }
+  ],
+  "total_frames": 136589,
+  "task": "Pick up the red cube and place it in the tray."
+}

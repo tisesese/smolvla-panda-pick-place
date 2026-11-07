@@ -1,0 +1,598 @@
+{
+  "revision": 1,
+  "purpose": "Complete four frozen 50-trial paired conditions; no training or model selection",
+  "source_directory": "<ORIGINAL_RUNS>/target80/target80_finish_v1/comparison120",
+  "output_directory": "<ORIGINAL_RUNS>/target80/target80_finish_v1/comparison200_extension_v1",
+  "destination": "<ORIGINAL_WORKSPACE>/artifacts/第八步完整测试结果_33000步_200次配对_v3",
+  "frozen_code_directory": "<ORIGINAL_RUNS>/target80/target80_finish_v1/comparison120/code",
+  "source_protocol": {
+    "stage": 8,
+    "training_steps": 33000,
+    "fine_condition": "finetuned33000",
+    "workspace_root": "<ORIGINAL_WORKSPACE>",
+    "delivery_destination": "<ORIGINAL_WORKSPACE>/artifacts/第八步完整测试结果_33000步_v2",
+    "model_directories": {
+      "finetuned33000": "<ORIGINAL_RUNS>/target80/target80_finish_v1/candidates/033000/pretrained_model",
+      "base": "<ORIGINAL_RUNS>/target80/target80_finish_v1/comparison120/base_matched_model"
+    },
+    "weights_sha256": {
+      "finetuned33000": "9d92ed62f2c47a3ddab11b7f86402ab257f6993a8c2c5465a5a063fa0bef123a",
+      "base": "564a82eadb9958e365b6f82720b6851354d5ac01f282a1383d3c4bcd370cff90"
+    },
+    "positions": [
+      {
+        "seed": 742610240,
+        "xyz_m": [
+          0.10638356166322324,
+          -0.20593537304275134,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610241,
+        "xyz_m": [
+          0.10678869532111157,
+          -0.1693426174744224,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610242,
+        "xyz_m": [
+          0.10651434466595398,
+          -0.21331055156031523,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610243,
+        "xyz_m": [
+          0.1488532818523816,
+          -0.19386879091570494,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610244,
+        "xyz_m": [
+          0.11428721722414543,
+          -0.1852348607545403,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610245,
+        "xyz_m": [
+          0.11167996012699259,
+          -0.18197317848775893,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610246,
+        "xyz_m": [
+          0.14240621590857558,
+          -0.2099282618311939,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610247,
+        "xyz_m": [
+          0.12887466177493895,
+          -0.20473189114203977,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610248,
+        "xyz_m": [
+          0.10820443246779117,
+          -0.20480502777961074,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610249,
+        "xyz_m": [
+          0.12179032959026206,
+          -0.2030632802028383,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610250,
+        "xyz_m": [
+          0.10542784345596623,
+          -0.21254363187747546,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610251,
+        "xyz_m": [
+          0.13317155811267464,
+          -0.17681376159486503,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610252,
+        "xyz_m": [
+          0.13487995843288147,
+          -0.18923368682914254,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610253,
+        "xyz_m": [
+          0.1394198554360086,
+          -0.21137914975029198,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610254,
+        "xyz_m": [
+          0.15437919632603236,
+          -0.19728953417700243,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610255,
+        "xyz_m": [
+          0.12852228968221532,
+          -0.20493745084463905,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610256,
+        "xyz_m": [
+          0.10764192354036878,
+          -0.19486489670041257,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610257,
+        "xyz_m": [
+          0.14727344122804334,
+          -0.18532131038331912,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610258,
+        "xyz_m": [
+          0.13958536891757461,
+          -0.16822678919447775,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610259,
+        "xyz_m": [
+          0.13276211633721688,
+          -0.16735376805669058,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610260,
+        "xyz_m": [
+          0.13483278360201129,
+          -0.2141142990371013,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610261,
+        "xyz_m": [
+          0.12496102582960233,
+          -0.20378110560864732,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610262,
+        "xyz_m": [
+          0.12033682969576433,
+          -0.19428134071174225,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610263,
+        "xyz_m": [
+          0.13746272957104633,
+          -0.1918301374538904,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610264,
+        "xyz_m": [
+          0.1319436962125956,
+          -0.21272657713785928,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610265,
+        "xyz_m": [
+          0.1315706484252693,
+          -0.19797214327765542,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610266,
+        "xyz_m": [
+          0.11090353069843308,
+          -0.18041649345624916,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610267,
+        "xyz_m": [
+          0.12265564424763889,
+          -0.16819951384432047,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610268,
+        "xyz_m": [
+          0.12682986951691994,
+          -0.21257510713120373,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610269,
+        "xyz_m": [
+          0.14877132386315062,
+          -0.1859161921935212,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610270,
+        "xyz_m": [
+          0.13943030416522462,
+          -0.17111430621780874,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610271,
+        "xyz_m": [
+          0.13651785445151113,
+          -0.18299486030719833,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610272,
+        "xyz_m": [
+          0.1546588731406231,
+          -0.20198893203540536,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610273,
+        "xyz_m": [
+          0.1512475259630281,
+          -0.17397296054242026,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610274,
+        "xyz_m": [
+          0.15324851664326572,
+          -0.20130274937016696,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610275,
+        "xyz_m": [
+          0.13920471012814734,
+          -0.2140608870030271,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610276,
+        "xyz_m": [
+          0.12308661034290225,
+          -0.1735053739590577,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610277,
+        "xyz_m": [
+          0.14053454465726423,
+          -0.21245348974762807,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610278,
+        "xyz_m": [
+          0.1541532989544384,
+          -0.17556913303583102,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610279,
+        "xyz_m": [
+          0.14952369967354923,
+          -0.17052811318935912,
+          0.782
+        ],
+        "category": "interior"
+      },
+      {
+        "seed": 742610280,
+        "xyz_m": [
+          0.105,
+          -0.20082822473582848,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610281,
+        "xyz_m": [
+          0.155,
+          -0.17301053885517226,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610282,
+        "xyz_m": [
+          0.10812616649654413,
+          -0.215,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610283,
+        "xyz_m": [
+          0.14393514726006482,
+          -0.165,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610284,
+        "xyz_m": [
+          0.105,
+          -0.166353872377233,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610285,
+        "xyz_m": [
+          0.155,
+          -0.17116296793852967,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610286,
+        "xyz_m": [
+          0.10929308231911955,
+          -0.215,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610287,
+        "xyz_m": [
+          0.1242631342421969,
+          -0.165,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610288,
+        "xyz_m": [
+          0.105,
+          -0.17427118328800614,
+          0.782
+        ],
+        "category": "boundary"
+      },
+      {
+        "seed": 742610289,
+        "xyz_m": [
+          0.155,
+          -0.19776243899918808,
+          0.782
+        ],
+        "category": "boundary"
+      }
+    ],
+    "light_stress_indices": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      42,
+      44,
+      46,
+      48
+    ],
+    "original_fine50_protocol": "<ORIGINAL_RUNS>/target80/target80_finish_v1/independent50/protocol.json",
+    "original_fine50_protocol_sha256": "291c36358a93e9f9207436f2525718f7b68ef56b36e0bf3042a102f18734c400",
+    "original_selection_sha256": "2bc73460812b61ea70632287ec9737e62263c66f6529831e2c325305b38845c0",
+    "existing_fine50_is_not_rerun": true,
+    "primary_test_unique_seeds": 50,
+    "total_trials": 120,
+    "model_order": "Frozen fine normal50, then Base normal50, Base dim10, fine dim10; one model resident",
+    "execution_window": 10,
+    "action_stride": 5,
+    "native_control_hz": 50,
+    "flow_steps": 10,
+    "compute_precision": "bfloat16",
+    "policy_noise_seed_base": 52610240,
+    "normal_light_scale": 1.0,
+    "stress_light_scale": 0.9,
+    "brightness_multiplier": 1.0,
+    "gripper_gain": 1.0,
+    "gripper_rate": 0.06,
+    "timeout_sim_seconds": 30,
+    "stable_sim_seconds": 2,
+    "sim_paused_during_inference": true,
+    "no_test_driven_model_or_executor_changes": true,
+    "baseline_optimizer_updates": 0,
+    "baseline_interface": "Zero-update official Base with the selected task crop, normalizers and action-time interface",
+    "inference_latency_definition": "All actual inference calls, including first calls; model loading excluded; no discarded warmups",
+    "executor_sha256": {
+      "environment.py": "ce74330feba8970c66a3bb0d6a1d5650148cd0ced4f0f8d635040d2fb6e523ff",
+      "rollout.py": "e7714f3011e188f29d3dd207b278941239d9552e1dcd97e94e19b3076ffe0cae",
+      "model.py": "2bfee6fa81db890c5690671465d06a65d0e568363c1bf86c649bfb903fca88ea"
+    }
+  },
+  "frozen_input_manifest_sha256": "6b42c7deef9006029f3a1c1ec3b77d84983ff7886bc72e7c973e306b38f2d70d",
+  "coordinator_sha256": "877aed3b72bbf44b8f94dbb32c2eb99b838b5ac19541461f7501f0a8b2514e84",
+  "source120_results_sha256": "46d9aa38ae344c5ee0c2268e5e408ebd1d378616ef2d1ada9e3c666b35da61b3",
+  "import_old_trials": 120,
+  "append_trials": 80,
+  "total_trials": 200,
+  "missing_dim_indices_each_model": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49
+  ],
+  "expected_groups": {
+    "finetuned33000-normal": 50,
+    "finetuned33000-dim": 50,
+    "base-normal": 50,
+    "base-dim": 50
+  },
+  "each_group_categories": {
+    "interior": 40,
+    "boundary": 10
+  },
+  "execution": {
+    "horizon": 10,
+    "action_stride": 5,
+    "num_steps": 10,
+    "precision": "bfloat16",
+    "light_scale": 0.9,
+    "brightness": 1.0,
+    "noise_seed_rule": "52610240 + index",
+    "device": "cuda",
+    "gripper_gain": 1.0,
+    "gripper_knee": 1.0,
+    "gripper_rate": 0.06,
+    "action_samples": 1
+  },
+  "run_order": [
+    "base missing dim40",
+    "finetuned33000 missing dim40"
+  ],
+  "resume_rule": "Read completed immutable result+evidence; refuse any partial rollout; never overwrite or silently rerun",
+  "all_planned_trials_required": true,
+  "success_based_early_stop": false,
+  "weights_executor_physics_safety_and_success_frozen": true,
+  "original120_not_rerun": true
+}

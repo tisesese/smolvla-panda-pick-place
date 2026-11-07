@@ -1,0 +1,15 @@
+name: Verify archived evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python scripts/verify_release.py
+      - run: python scripts/summarize_results.py --check
+      - run: python run_task.py --help

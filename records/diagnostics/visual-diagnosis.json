@@ -1,0 +1,82 @@
+{
+  "scope": "Read-only review of original videos and frozen logs; no new policy inference, simulation, intervention or model modification.",
+  "reviewed": {
+    "finetuned_normal_failure_indices": [
+      2,
+      10,
+      40,
+      42,
+      44
+    ],
+    "finetuned_dim_failure_indices": [
+      2,
+      10,
+      40,
+      44
+    ],
+    "base_representative_indices_both_lights": [
+      2,
+      42
+    ],
+    "coarse_video_timestamps_seconds": [
+      0,
+      7,
+      13,
+      20,
+      28.5
+    ],
+    "fine_review": "Paired normal/dim index02 videos 14.0–20.0s at about0.25s intervals. Video time is approximately simulation time minus1s; simulation timestamps are from commands.jsonl.",
+    "crop_xyxy": [
+      240,
+      140,
+      480,
+      380
+    ],
+    "crop_reason": "Matches fixed policy crop. Contact sheets are unmodified original frames except crop and text labels."
+  },
+  "paired_lighting_outcomes": {
+    "fine_both_success": 45,
+    "fine_normal_only_success": 0,
+    "fine_dim_only_success": 1,
+    "fine_both_fail": 4,
+    "fine_dim_only_success_index": 42,
+    "fine_both_fail_indices": [
+      2,
+      10,
+      40,
+      44
+    ],
+    "base_both_fail": 50,
+    "lighting": "Physical scene ambient/diffuse/specular intensity multiplied by0.9; image brightness multiplier remains1. This is only a mild lighting test."
+  },
+  "observations": [
+    "All9 fine failures approach, grasp and lift the red cube. Eight videos visibly carry it into the blue tray, then remain above it without satisfying full-opening completion. This contradicts a blanket claim that these failures could not see or locate the initial cube.",
+    "Fine dim index02 loses the cube near the front edge of the tray: video15.2s still carrying;15.5s cube below/front of the gripper;15.8s resting outside the tray. It does not merely run out of time while holding the cube in the air.",
+    "Paired normal index02 also loses gripper contact near the tray, but the cube lands inside the tray. Mapping/timing audit: dim last bilateral contact16.32simsec, bilateral loss16.34, table contact16.66; raw and issued gripper targets remain near0.342, so there is no commanded early opening. Better describe this as loss of grip/slip near the tray edge, not active premature release.",
+    "Base representative videos index02 and42 in both lights do not execute a successful approach/grasp; they move above/away from the target. These motions alone do not distinguish visual localization error from lack of task-specific visual-to-action adaptation."
+  ],
+  "visual_cause_assessment": {
+    "confirmed_visual_misjudgment": false,
+    "supported": "Light changes can alter the policy trajectory; index42 changes outcome and index02 changes failure manifestation. No normally successful position becomes a failed position under this10% light reduction.",
+    "not_supported": [
+      "Claiming allBase failures are caused by not seeing the cube.",
+      "Claiming 8 incomplete-opening failures are due to wrong cube/tray localization.",
+      "Claiming dim index02 proves a perception error: slip, geometry and learned action policy can explain the observable event, and no localization head/error estimate exists.",
+      "Claiming mild lighting pairing proves general visual robustness or no perception contribution.",
+      "Using historical22k RGB conditioning test as direct33k failure diagnosis."
+    ],
+    "appropriate_wording": "视觉误判目前未被直接证实；图像变化可能是轨迹变化的诱因，但这组失败的直接可见问题主要在后半程握持、入盘和张爪完成动作。"
+  },
+  "preprocessing_evidence": {
+    "deployment_check": "artifacts/第七步部署核验_33000步_v2/verification.json",
+    "train_deploy_image_tensor_consistency": true,
+    "frozen_crop": [
+      240,
+      140,
+      480,
+      380
+    ],
+    "source": "artifacts/第八步完整测试结果_33000步_v2/frozen_evaluation_code/smolvla_task/model.py:56–65",
+    "limits": "This verifies the checked pipeline path, not the learned model's semantic localization accuracy in every frame."
+  }
+}

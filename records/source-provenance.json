@@ -1,0 +1,679 @@
+{
+  "description": "Source hashes refer to pre-portability files. Numeric experiment outcomes are preserved. Absolute machine paths are replaced in published metadata. Original experiment and archive are not modified.",
+  "model_safetensors_sha256": "9d92ed62f2c47a3ddab11b7f86402ab257f6993a8c2c5465a5a063fa0bef123a",
+  "original_result_sha256": "18670cd079e46de5ffc19730b4d66fcaaeaabf918d365e599d174fec6c9413d8",
+  "sources": {
+    "smolvla_task/acceptance.py": {
+      "origin": "archive/code/smolvla_task/acceptance.py",
+      "original_sha256": "ea7a4d17a86daeb4a5970b7aec8396cb52875a374cb4acfbb906a6d6f732de6c"
+    },
+    "smolvla_task/audit.py": {
+      "origin": "archive/code/smolvla_task/audit.py",
+      "original_sha256": "158eacc3ab37906870a625db3951acea430f941e208fef51de019080dd95899b"
+    },
+    "smolvla_task/completion.py": {
+      "origin": "archive/code/smolvla_task/completion.py",
+      "original_sha256": "3011f2c76ce2648761b921c44d0d238d728476c7495cec6306e1438f3e09acaa"
+    },
+    "smolvla_task/config.py": {
+      "origin": "archive/code/smolvla_task/config.py",
+      "original_sha256": "bb337c0e1e00c17c439bb38c9606f8160bde088bd7397d3d0ed33fbe930790b1"
+    },
+    "smolvla_task/data.py": {
+      "origin": "archive/code/smolvla_task/data.py",
+      "original_sha256": "f5c044c93c3ba37c81a40d8d0054115d02794175e4e877dfbfc0ccf644b03dc5"
+    },
+    "smolvla_task/development.py": {
+      "origin": "archive/code/smolvla_task/development.py",
+      "original_sha256": "a75dc515607182ec3de2e3d0b8b6a82fb79c1abbb9f8bb4aadb74de65ad14841"
+    },
+    "smolvla_task/environment.py": {
+      "origin": "archive/code/smolvla_task/environment.py",
+      "original_sha256": "ce74330feba8970c66a3bb0d6a1d5650148cd0ced4f0f8d635040d2fb6e523ff"
+    },
+    "smolvla_task/evaluate.py": {
+      "origin": "archive/code/smolvla_task/evaluate.py",
+      "original_sha256": "ec6c2ed627f7842d050d737cadc2fcc7c91d51589c6e7757cdccb798d7797b47"
+    },
+    "smolvla_task/evaluation_repair.py": {
+      "origin": "archive/code/smolvla_task/evaluation_repair.py",
+      "original_sha256": "2828dc2f3e60c520a87e44b38d4876a1c2f2c1e5a98ca1d17ec8cdd62bec6775"
+    },
+    "smolvla_task/final_validation.py": {
+      "origin": "archive/code/smolvla_task/final_validation.py",
+      "original_sha256": "1c1a420cb378f6f8e8cfab9b4ff20fc6faa7e765b78f085e8a1cde5046d91a26"
+    },
+    "smolvla_task/grasp_audit.py": {
+      "origin": "archive/code/smolvla_task/grasp_audit.py",
+      "original_sha256": "e913f9d36d425c8efafdbde113cc24749d6773dcc74cdb1d05421444e7634a6b"
+    },
+    "smolvla_task/grasp_sensitivity.py": {
+      "origin": "archive/code/smolvla_task/grasp_sensitivity.py",
+      "original_sha256": "40888205ee77ed1c537ef9e2fe786889d0d42311dd135c6564976463146aef29"
+    },
+    "smolvla_task/heldout.py": {
+      "origin": "archive/code/smolvla_task/heldout.py",
+      "original_sha256": "14182f8235b4cb117ba7432e1df2debd1590e0d91e25ef884735b8f26a03784c"
+    },
+    "smolvla_task/heldout_report.py": {
+      "origin": "archive/code/smolvla_task/heldout_report.py",
+      "original_sha256": "571b19dcdf054ce101c533d866109b6760de482b83c414b3392a2d38d156d9d0"
+    },
+    "smolvla_task/model.py": {
+      "origin": "archive/code/smolvla_task/model.py",
+      "original_sha256": "2bfee6fa81db890c5690671465d06a65d0e568363c1bf86c649bfb903fca88ea"
+    },
+    "smolvla_task/pipeline.py": {
+      "origin": "archive/code/smolvla_task/pipeline.py",
+      "original_sha256": "e234850b340baece839c162ff5bf7705c2134b095d1a5461cde42afd646774af"
+    },
+    "smolvla_task/refinement.py": {
+      "origin": "archive/code/smolvla_task/refinement.py",
+      "original_sha256": "b753645a4638a56131bfa33746939ada4a5020b050127dca8a6447fd04c530ec"
+    },
+    "smolvla_task/repair_checks.py": {
+      "origin": "archive/code/smolvla_task/repair_checks.py",
+      "original_sha256": "e896a4505c352de7747942863b718c2e73e56906f8fa222a2ab30a7a11c2d26a"
+    },
+    "smolvla_task/rollout.py": {
+      "origin": "archive/code/smolvla_task/rollout.py",
+      "original_sha256": "e7714f3011e188f29d3dd207b278941239d9552e1dcd97e94e19b3076ffe0cae"
+    },
+    "smolvla_task/runtime.py": {
+      "origin": "archive/code/smolvla_task/runtime.py",
+      "original_sha256": "0f95fc6da918244e882cc70d600cd7b320df905d80e012603e8c238c5ae3cb11"
+    },
+    "smolvla_task/selection_gate.py": {
+      "origin": "archive/code/smolvla_task/selection_gate.py",
+      "original_sha256": "aee59781b492c65882547c52dae2f61a546febfb42270aa9d3787537a1135ed5"
+    },
+    "smolvla_task/selection_report.py": {
+      "origin": "archive/code/smolvla_task/selection_report.py",
+      "original_sha256": "9e17b8f9d58aae1b317a84deccf83af07bc51be073189dec18ee6cc8a14b2519"
+    },
+    "smolvla_task/target80.py": {
+      "origin": "archive/code/smolvla_task/target80.py",
+      "original_sha256": "44f6acc5205b3892f4a64e4c698fc76c4e025cd2d64e7e7383f268ecc5c3ad2f"
+    },
+    "smolvla_task/train.py": {
+      "origin": "archive/code/smolvla_task/train.py",
+      "original_sha256": "c1bf30e02a81fbba2856973e73913de20d5ab9980ff72908e6b58a0de25ab0b4"
+    },
+    "smolvla_task/vision_conditioning.py": {
+      "origin": "archive/code/smolvla_task/vision_conditioning.py",
+      "original_sha256": "91d27be3374618534d75fb43bac918b0dcef3f44ea3baf0c005f5d77d9384c45"
+    },
+    "smolvla_task/__init__.py": {
+      "origin": "archive/code/smolvla_task/__init__.py",
+      "original_sha256": "16c04f066ffd48a05c19f03d57d786fb6130057ac0628adbc13dd72438c0c6ca"
+    },
+    "run_task.py": {
+      "origin": "archive/code/run_task.py",
+      "original_sha256": "992e62a09f774a324ccbd3d87ed2dfaa1002ddb5b8ac0a2504cc87ea5f611bf0"
+    },
+    "simulation/robot_scene/collect_panda_dataset.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/collect_panda_dataset.py",
+      "original_sha256": "24a43c212b321cfa7e852075bf78e6b9fd21668d026d8bf7edcb93b9d61eda6e"
+    },
+    "simulation/robot_scene/demo_vla_adapter.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/demo_vla_adapter.py",
+      "original_sha256": "4c446df7f7d6e97b8b3a936cba034353c55a060244574770896ab18f502901f2"
+    },
+    "simulation/robot_scene/panda_scene.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/panda_scene.py",
+      "original_sha256": "700b250065212da71fe1ee6d8b4d5403238edcf78c641947d13248cad211d798"
+    },
+    "simulation/robot_scene/scripted_grasp.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/scripted_grasp.py",
+      "original_sha256": "aecf4fe9266c677da1f6610644db73643b3da122799dcb122809621eb12f7685"
+    },
+    "simulation/robot_scene/verify_panda_dataset.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/verify_panda_dataset.py",
+      "original_sha256": "f422b7928f07dd3e96a1e3ab8cd0d85e17769eefb2e3c9d25d2a4df1022de1c4"
+    },
+    "simulation/robot_scene/view_panda_scene.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/view_panda_scene.py",
+      "original_sha256": "91b7674c9b1cdb44f58940017f43dc10e13e854c32e93a2dc585e50b4adfcc5d"
+    },
+    "simulation/robot_scene/vla_adapter.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/vla_adapter.py",
+      "original_sha256": "93aeb351a268ba854d45f7d659f7689c801e8c1a05bdc78b086ef3b50ab30700"
+    },
+    "simulation/robot_scene/vla_interface.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/vla_interface.py",
+      "original_sha256": "49e3808f2539f986b8b210ae1fc3eb06a63851dd58b65c6ef3e3844a99f8b6f1"
+    },
+    "simulation/robot_scene/__init__.py": {
+      "origin": "archive/external_assets/task4_vla/robot_scene/__init__.py",
+      "original_sha256": "28cfeaf46f36319723fee821909d3e977bc454e8f2a38e547ca8424366a806b4"
+    },
+    "simulation/experiments/panda_pick_place/__init__.py": {
+      "origin": "archive/external_assets/task4_vla/experiments/panda_pick_place/__init__.py",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "simulation/experiments/panda_pick_place/environment.py": {
+      "origin": "archive/external_assets/task4_vla/experiments/panda_pick_place/environment.py",
+      "original_sha256": "661aeb271765824484c6bf2648f0d5316c0f736cb4d6e9bd83b3d9771567a76b"
+    },
+    "simulation/experiments/panda_pick_place/expert.py": {
+      "origin": "archive/external_assets/task4_vla/experiments/panda_pick_place/expert.py",
+      "original_sha256": "a72c3da9968fd590a9caeb7baf9fd12864cadfd73afe13743fef8f799e031929"
+    },
+    "simulation/experiments/panda_descent_feedback/correction.py": {
+      "origin": "original-simulation/experiments/panda_descent_feedback/correction.py",
+      "original_sha256": "e69a3cddc2e8f6ea08f015abdd9b2005043a1584bef0c72b01a308a25859cdd1"
+    },
+    "simulation/experiments/panda_descent_feedback/parameters.json": {
+      "origin": "original-simulation/experiments/panda_descent_feedback/parameters.json",
+      "original_sha256": "5c5fab093af73dcb1446cd0cf1f587179d4bf780384e13644d4b7ec4183cd6b3"
+    },
+    "simulation/experiments/panda_feedback_lift/feedback.py": {
+      "origin": "original-simulation/experiments/panda_feedback_lift/feedback.py",
+      "original_sha256": "ebbb1008db2b40f75c71f25562a7732bee651c4be42e5901556235e441904ff0"
+    },
+    "simulation/outputs/panda_pick_place/contract.json": {
+      "origin": "original-simulation/outputs/panda_pick_place/contract.json",
+      "original_sha256": "92981ca8b81729c38aaeab558c37c821c84d021f20300356daa98a775160cff8"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/CHANGELOG.md": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/CHANGELOG.md",
+      "original_sha256": "164a6ec704aa1714b1311f8b1538e20b4223b6ef08b7d3cb03edc26192892f67"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/LICENSE": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/LICENSE",
+      "original_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/panda.xml": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/panda.xml",
+      "original_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/README.md": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/README.md",
+      "original_sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/finger_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/finger_0.obj",
+      "original_sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/finger_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/finger_1.obj",
+      "original_sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand.stl",
+      "original_sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_0.obj",
+      "original_sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_1.obj",
+      "original_sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_2.obj",
+      "original_sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_3.obj",
+      "original_sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_4.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/hand_4.obj",
+      "original_sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0.stl",
+      "original_sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_0.obj",
+      "original_sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_1.obj",
+      "original_sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_10.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_10.obj",
+      "original_sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_11.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_11.obj",
+      "original_sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_2.obj",
+      "original_sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_3.obj",
+      "original_sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_4.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_4.obj",
+      "original_sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_5.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_5.obj",
+      "original_sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_7.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_7.obj",
+      "original_sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_8.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_8.obj",
+      "original_sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_9.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link0_9.obj",
+      "original_sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link1.obj",
+      "original_sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link1.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link1.stl",
+      "original_sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link2.obj",
+      "original_sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link2.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link2.stl",
+      "original_sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3.stl",
+      "original_sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_0.obj",
+      "original_sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_1.obj",
+      "original_sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_2.obj",
+      "original_sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link3_3.obj",
+      "original_sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4.stl",
+      "original_sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_0.obj",
+      "original_sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_1.obj",
+      "original_sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_2.obj",
+      "original_sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link4_3.obj",
+      "original_sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_0.obj",
+      "original_sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_1.obj",
+      "original_sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_2.obj",
+      "original_sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_0.obj",
+      "original_sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_1.obj",
+      "original_sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link5_collision_2.obj",
+      "original_sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6.stl",
+      "original_sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_0.obj",
+      "original_sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_1.obj",
+      "original_sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_10.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_10.obj",
+      "original_sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_11.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_11.obj",
+      "original_sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_12.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_12.obj",
+      "original_sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_13.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_13.obj",
+      "original_sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_14.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_14.obj",
+      "original_sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_15.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_15.obj",
+      "original_sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_16.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_16.obj",
+      "original_sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_2.obj",
+      "original_sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_3.obj",
+      "original_sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_4.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_4.obj",
+      "original_sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_5.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_5.obj",
+      "original_sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_6.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_6.obj",
+      "original_sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_7.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_7.obj",
+      "original_sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_8.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_8.obj",
+      "original_sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_9.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link6_9.obj",
+      "original_sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7.stl": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7.stl",
+      "original_sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_0.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_0.obj",
+      "original_sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_1.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_1.obj",
+      "original_sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_2.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_2.obj",
+      "original_sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_3.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_3.obj",
+      "original_sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_4.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_4.obj",
+      "original_sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_5.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_5.obj",
+      "original_sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_6.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_6.obj",
+      "original_sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb"
+    },
+    "simulation/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_7.obj": {
+      "origin": "archive/external_assets/task4_vla/vendor/mujoco_menagerie/f054586a8e90465d49ee5be15335c4a0c7f57caf/franka_emika_panda/assets/link7_7.obj",
+      "original_sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54"
+    },
+    "simulation/experiments/panda_pick_place/scene/panda_pick_place.xml": {
+      "origin": "archive/external_assets/task4_vla/experiments/panda_pick_place/scene/panda_pick_place.xml",
+      "original_sha256": "60232399d73f497e7a182b0b3acb67a6199093e696886b26d6ef64b534dec3b1"
+    },
+    "simulation/models/panda_table_scene.xml": {
+      "origin": "original-simulation/models/panda_table_scene.xml",
+      "original_sha256": "6a531ed748ed75c233765da1ab820daf726b16cc27a500f626939adda427cc13"
+    },
+    "model_bundle/033000/pretrained_model/config.json": {
+      "origin": "archive/models/033000/pretrained_model/config.json",
+      "original_sha256": "d97ec475810877f4bcee780756f8ae932b0072f431075c64d41e13b3aa6da36d"
+    },
+    "model_bundle/033000/pretrained_model/policy_postprocessor.json": {
+      "origin": "archive/models/033000/pretrained_model/policy_postprocessor.json",
+      "original_sha256": "f24875ca8641ab68c5aa70b8785537222e2bea90d4a43365a0b9dc0a64cbe6dc"
+    },
+    "model_bundle/033000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "origin": "archive/models/033000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "original_sha256": "f2f0e8e3ca31c101b55b3a60d4a28741c144c08ffe2b9390ed6a5a7dbb41525e"
+    },
+    "model_bundle/033000/pretrained_model/policy_preprocessor.json": {
+      "origin": "archive/models/033000/pretrained_model/policy_preprocessor.json",
+      "original_sha256": "43956caad9e0a31c90ce1d2c3be90f38bf6286e7e0d078e4e5e8cea6823d0d9b"
+    },
+    "model_bundle/033000/pretrained_model/policy_preprocessor_step_5_normalizer_processor.safetensors": {
+      "origin": "archive/models/033000/pretrained_model/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "original_sha256": "a1276fb4d9d6355748370696d503dc7b9512cdf86e801affc5b031815ad65a46"
+    },
+    "model_bundle/033000/pretrained_model/training-variant.json": {
+      "origin": "archive/models/033000/pretrained_model/training-variant.json",
+      "original_sha256": "0295b5b2faa9536352a9e332c28c1fe9f54579b4f46f7c62804a641c20cdf2ea"
+    },
+    "model_bundle/033000/pretrained_model/tokenizer/chat_template.jinja": {
+      "origin": "archive/models/033000/pretrained_model/tokenizer/chat_template.jinja",
+      "original_sha256": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+    },
+    "model_bundle/033000/pretrained_model/tokenizer/tokenizer.json": {
+      "origin": "archive/models/033000/pretrained_model/tokenizer/tokenizer.json",
+      "original_sha256": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+    },
+    "model_bundle/033000/pretrained_model/tokenizer/tokenizer_config.json": {
+      "origin": "archive/models/033000/pretrained_model/tokenizer/tokenizer_config.json",
+      "original_sha256": "49749e33ec31d7db351940933d6646bd6c7f83f4b5b43055a9215e1784b7eda0"
+    },
+    "assets/vlm/added_tokens.json": {
+      "origin": "archive/external_assets/vlm_config_original/added_tokens.json",
+      "original_sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a"
+    },
+    "assets/vlm/chat_template.json": {
+      "origin": "archive/external_assets/vlm_config_original/chat_template.json",
+      "original_sha256": "b585e3598909a5687f9f9d738d35223724dedef256b9b274e1cbfb32b13c74bf"
+    },
+    "assets/vlm/config.json": {
+      "origin": "archive/external_assets/vlm_config_original/config.json",
+      "original_sha256": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17"
+    },
+    "assets/vlm/generation_config.json": {
+      "origin": "archive/external_assets/vlm_config_original/generation_config.json",
+      "original_sha256": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840"
+    },
+    "assets/vlm/merges.txt": {
+      "origin": "archive/external_assets/vlm_config_original/merges.txt",
+      "original_sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+    },
+    "assets/vlm/preprocessor_config.json": {
+      "origin": "archive/external_assets/vlm_config_original/preprocessor_config.json",
+      "original_sha256": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374"
+    },
+    "assets/vlm/processor_config.json": {
+      "origin": "archive/external_assets/vlm_config_original/processor_config.json",
+      "original_sha256": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c"
+    },
+    "assets/vlm/special_tokens_map.json": {
+      "origin": "archive/external_assets/vlm_config_original/special_tokens_map.json",
+      "original_sha256": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60"
+    },
+    "assets/vlm/tokenizer.json": {
+      "origin": "archive/external_assets/vlm_config_original/tokenizer.json",
+      "original_sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+    },
+    "assets/vlm/tokenizer_config.json": {
+      "origin": "archive/external_assets/vlm_config_original/tokenizer_config.json",
+      "original_sha256": "dd9ce2ab89a3dd881bd9378f1a79b943a064b9275a7e1706d5b7b47b68977913"
+    },
+    "assets/vlm/vocab.json": {
+      "origin": "archive/external_assets/vlm_config_original/vocab.json",
+      "original_sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    "data_metadata/panda_100_lowdisk/plan.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/plan.json",
+      "original_sha256": "b8f6b0615d1fb1ba2690bc7038aab784e7d36bd77d05e527279b00b0d1ce9c46",
+      "path_metadata_sanitized": true
+    },
+    "data_metadata/panda_100_lowdisk/split.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/split.json",
+      "original_sha256": "726134bb58f42980e46f68d699ad5e3cb40e536268e5f8e252bf757687e93302",
+      "path_metadata_sanitized": true
+    },
+    "data_metadata/panda_100_lowdisk/train-only-stats.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/train-only-stats.json",
+      "original_sha256": "85673a95263808eeeba71ce2109415ec51d2aed9dda9ba6fc0c31cbe4913ab1e",
+      "path_metadata_sanitized": true
+    },
+    "data_metadata/panda_100_lowdisk/data-admission.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/data-admission.json",
+      "original_sha256": "a94ab71137fd54aa68d64088f8b7bcc6cf09f2c371e2c572d5a583b6a83d8aa5",
+      "path_metadata_sanitized": true
+    },
+    "data_metadata/panda_100_lowdisk/full-native100-admission.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/full-native100-admission.json",
+      "original_sha256": "de309e4c8bd6735d50c4792c53b3be44e37e8ce942e2c54f2c20bc0c2afd60f9",
+      "path_metadata_sanitized": true
+    },
+    "data_metadata/panda_100_lowdisk/all100-numeric.json": {
+      "origin": "archive/data_metadata/panda_100_lowdisk/all100-numeric.json",
+      "original_sha256": "72d5cd789243ff6992ca3ba1655437d979c52be6b446ffd26049b8d323607079",
+      "path_metadata_sanitized": true
+    },
+    "records/selection/checkpoint-comparison.json": {
+      "origin": "archive/selection_33000/checkpoint-comparison.json",
+      "original_sha256": "1693e071ebaaee784909392333e3c137acaf019b11693b2d5d057519ce80abfa",
+      "path_metadata_sanitized": true
+    },
+    "records/selection/final-validation-loss.json": {
+      "origin": "archive/selection_33000/final-validation-loss.json",
+      "original_sha256": "2843208f26cfaccff32fe864571d61765351f2d433734a1628beed2edb514e0d",
+      "path_metadata_sanitized": true
+    },
+    "records/selection/final-validation-loss-protocol.json": {
+      "origin": "archive/selection_33000/final-validation-loss-protocol.json",
+      "original_sha256": "4456c9a568dae3902f276db388eb003cfd012d870096fad586620f8ca2766d3a",
+      "path_metadata_sanitized": true
+    },
+    "records/selection/train-only-stats.json": {
+      "origin": "archive/selection_33000/train-only-stats.json",
+      "original_sha256": "85673a95263808eeeba71ce2109415ec51d2aed9dda9ba6fc0c31cbe4913ab1e",
+      "path_metadata_sanitized": true
+    },
+    "records/training/formal_20000_v1/anchors.json": {
+      "origin": "archive/selection_33000/training_logs/formal_20000_v1/anchors.json",
+      "original_sha256": "c15ffb42a0f4ae45cf130b42cda79a7cf7ae7eef13e7e164a764f3d632f87514",
+      "path_metadata_sanitized": true
+    },
+    "records/training/formal_20000_v1/protocol.json": {
+      "origin": "archive/selection_33000/training_logs/formal_20000_v1/protocol.json",
+      "original_sha256": "31f0daeb854c58e299d306eb9aa26349824f82fa405a7262859fd2691bd87408",
+      "path_metadata_sanitized": true
+    },
+    "records/training/step6_crop_vision_refinement_v1/anchors.json": {
+      "origin": "archive/selection_33000/training_logs/step6_crop_vision_refinement_v1/anchors.json",
+      "original_sha256": "b25f97874f0beba24c1e62d98b76afc026218ea09c2770da14ac3d6fa5cf1be5",
+      "path_metadata_sanitized": true
+    },
+    "records/training/step6_crop_vision_refinement_v1/protocol.json": {
+      "origin": "archive/selection_33000/training_logs/step6_crop_vision_refinement_v1/protocol.json",
+      "original_sha256": "fbaa29afa1cec7024f7ea06705479c63c9fad46cd02091ca88da0e39ce3d8ac4",
+      "path_metadata_sanitized": true
+    },
+    "records/training/step6_stride5_vision_v1/anchors.json": {
+      "origin": "archive/selection_33000/training_logs/step6_stride5_vision_v1/anchors.json",
+      "original_sha256": "8a1d2905535a19eab27a63e6d063009ce50f0073eabcbb63558222d1860ccd7b",
+      "path_metadata_sanitized": true
+    },
+    "records/training/step6_stride5_vision_v1/protocol.json": {
+      "origin": "archive/selection_33000/training_logs/step6_stride5_vision_v1/protocol.json",
+      "original_sha256": "783a63365a851b3d931d2fea6674edc9bff6f12385ca6f4c9325adb6f404c40f",
+      "path_metadata_sanitized": true
+    },
+    "records/training/target80_finish_v1_training/anchors.json": {
+      "origin": "archive/selection_33000/training_logs/target80_finish_v1_training/anchors.json",
+      "original_sha256": "ccaab4290e66954a5915d7b334e66a2bfe84f0cbc15b5d0813a2067f48ccd8e4",
+      "path_metadata_sanitized": true
+    },
+    "records/training/target80_finish_v1_training/protocol.json": {
+      "origin": "archive/selection_33000/training_logs/target80_finish_v1_training/protocol.json",
+      "original_sha256": "a0fa97ca3823f690ccf1b6a5a822e20bda2a087a699be63b7772e6bc3a8df0a8",
+      "path_metadata_sanitized": true
+    },
+    "results/protocol.json": {
+      "origin": "archive/results_200/protocol.json",
+      "original_sha256": "04fe8239893a6353113c2b8563eb6499d4d28efb4dc6bdd50e9997ad429ccb85",
+      "path_metadata_sanitized": true
+    },
+    "records/diagnostics/mapping-timing-audit.json": {
+      "origin": "archive/diagnostics/mapping-timing-audit.json",
+      "original_sha256": "9abb169dd6777a2e9866aaf2a323e4a4dcc786d45cb3590139b49bdefc72237d",
+      "path_metadata_sanitized": true
+    },
+    "records/diagnostics/data-coverage-audit.json": {
+      "origin": "archive/diagnostics/data-coverage-audit.json",
+      "original_sha256": "f42c68d16496c4d5a0b3fb390ca6a5bebd12444de90361626af74d544557358f",
+      "path_metadata_sanitized": true
+    },
+    "records/diagnostics/contact-all-fine-failures.json": {
+      "origin": "archive/diagnostics/contact-all-fine-failures.json",
+      "original_sha256": "548daedb17c83bd3aec8cf599ce62033aa57669f4e9d76b026bb9e1e331c3080",
+      "path_metadata_sanitized": true
+    },
+    "records/diagnostics/visual-diagnosis.json": {
+      "origin": "archive/diagnostics/visual-diagnosis.json",
+      "original_sha256": "cf3712cd19383ed67dadca7bb4b4c0b13b3c0540f94946b5e1e2c170c460fb18",
+      "path_metadata_sanitized": true
+    },
+    "assets/demo-success.mp4": {
+      "origin": "archive/videos/成功示例_finetuned33000_normal_index00.mp4",
+      "original_sha256": "a37a2b4e73b96b318e8e1f340acfe76a9c03996dbeecce322d47ca226a9f6c14"
+    },
+    "records/environment.json": {
+      "origin": "archive/environment/runtime-versions.json",
+      "original_sha256": "fea6f91d3409604eef2832872442b144a1bd0aa5c503d8f43fae90ad8baf74d8",
+      "path_metadata_sanitized": true
+    },
+    "requirements-recorded.txt": {
+      "origin": "archive/environment/requirements-recorded.txt",
+      "original_sha256": "367279d113e437002bb7758c6869212f84ff37ed3dc30c0e5f4355e91c21606e"
+    }
+  }
+}

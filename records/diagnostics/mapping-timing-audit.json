@@ -1,0 +1,2290 @@
+{
+  "scope": "Read-only saved frozen trial analysis; no new rollout or parameter changes",
+  "success_contract": {
+    "interior_margin_m": 0.002,
+    "base_support_force_N_min": 0.1,
+    "support_height_tolerance_m": 0.003,
+    "linear_speed_m_s_max": 0.01,
+    "angular_speed_rad_s_max": 0.1,
+    "position_drift_m_max": 0.003,
+    "robot_cube_clearance_m_min": 0.1,
+    "independent_stable_seconds": 2.0,
+    "minimum_physics_steps": 1000,
+    "no_robot_cube_contacts": true,
+    "gripper_actual_width_m_min": 0.075,
+    "gripper_target_min": 0.98
+  },
+  "results": [
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 0,
+      "success": true,
+      "diagnosis": "完整成功",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610240",
+      "first_bilateral_s": 7.239999999999425,
+      "first_lift_s": 12.10000000000071,
+      "first_inside_tray_s": 17.040000000001434,
+      "first_tray_support_s": 22.599999999998353,
+      "first_all_other_success_conditions_s": 25.77999999999659,
+      "longest_all_other_success_conditions_s": 2.0200000000000014,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": true,
+        "gripper_target": true
+      },
+      "final_failed_conditions": [],
+      "final_cube_xyz_m": [
+        0.3137225109599301,
+        0.1790960999238043,
+        0.7898922445797828
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000091645447,
+          "distance_m": -0.00010775541474459521
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999923578698,
+          "distance_m": -0.00010775542478061231
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471499990835456,
+          "distance_m": -0.00010775542568971236
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000076421306,
+          "distance_m": -0.00010775541565369526
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.07983895971256699,
+      "final_raw_gripper": 0.9985224008560181,
+      "final_issued_gripper": 0.9985224008560181,
+      "final_measured_gripper": 0.9979869723320007,
+      "final_robot_clearance": 0.182323091874074,
+      "final_tray_support": 0.5886000000000001,
+      "last2s_raw_issued_max_abs_per_dim": null,
+      "last2s_measured_issued_max_abs_per_dim": null,
+      "last2s_raw_gripper_range": null,
+      "last5chunks": [
+        {
+          "file": "chunk-023.npz",
+          "time": 22.99999999999813,
+          "all_grip_min": 0.3467640280723572,
+          "all_grip_max": 1.0110251903533936,
+          "executed_prefix_grip_max": 0.7336888313293457,
+          "future_only_fullopen_indices": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-024.npz",
+          "time": 23.999999999997577,
+          "all_grip_min": 0.6261537075042725,
+          "all_grip_max": 1.0157225131988525,
+          "executed_prefix_grip_max": 1.0008314847946167,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.9898217916488647,
+          "all_grip_max": 1.0120596885681152,
+          "executed_prefix_grip_max": 1.0120596885681152,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.9652936458587646,
+          "all_grip_max": 1.0118368864059448,
+          "executed_prefix_grip_max": 1.008148431777954,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            33,
+            34,
+            38
+          ]
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.978123664855957,
+          "all_grip_max": 1.0125789642333984,
+          "executed_prefix_grip_max": 1.0125789642333984,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            36,
+            37,
+            38
+          ]
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 2,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610242",
+      "first_bilateral_s": 7.27999999999942,
+      "first_lift_s": 12.64000000000089,
+      "first_inside_tray_s": 16.7400000000016,
+      "first_tray_support_s": 16.7400000000016,
+      "first_all_other_success_conditions_s": 17.1000000000014,
+      "longest_all_other_success_conditions_s": 12.919999999999813,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.2777883780189765,
+        0.20389740295677716,
+        0.7898922445797845
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000006857734,
+          "distance_m": -0.00010775542360783227
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999986660476,
+          "distance_m": -0.00010775541361680284
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471499999314226,
+          "distance_m": -0.00010775541682321402
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471500001333952,
+          "distance_m": -0.00010775542681424345
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025486714482290878,
+      "final_raw_gripper": 0.32025808095932007,
+      "final_issued_gripper": 0.32025808095932007,
+      "final_measured_gripper": 0.3185839354991913,
+      "final_robot_clearance": 0.10548166884325133,
+      "final_tray_support": 0.5885999999999999,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.014345049858093262,
+        0.0,
+        0.00970447063446045,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.011950984597206116,
+        0.040082454681396484,
+        0.0008978303521871567,
+        0.017354965209960938,
+        0.0009832009673118591,
+        0.00485539436340332,
+        0.01296621561050415,
+        0.00733870267868042
+      ],
+      "last2s_raw_gripper_range": [
+        0.30882319808006287,
+        0.32317274808883667
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3050651550292969,
+          "all_grip_max": 0.6883270144462585,
+          "executed_prefix_grip_max": 0.326436311006546,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.30837181210517883,
+          "all_grip_max": 0.6578596830368042,
+          "executed_prefix_grip_max": 0.3234235346317291,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.30769872665405273,
+          "all_grip_max": 0.6550893783569336,
+          "executed_prefix_grip_max": 0.3296174108982086,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.30882319808006287,
+          "all_grip_max": 0.723899781703949,
+          "executed_prefix_grip_max": 0.3225054144859314,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.3076050579547882,
+          "all_grip_max": 0.7136263251304626,
+          "executed_prefix_grip_max": 0.32317274808883667,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 10,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610250",
+      "first_bilateral_s": 7.299999999999418,
+      "first_lift_s": 12.40000000000081,
+      "first_inside_tray_s": 16.9200000000015,
+      "first_tray_support_s": 17.420000000001224,
+      "first_all_other_success_conditions_s": 17.920000000000947,
+      "longest_all_other_success_conditions_s": 12.099999999999831,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.31282792553972916,
+        0.1386836196423292,
+        0.7898922445797849
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000009281407,
+          "distance_m": -0.00010775542735806699
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000002085704,
+          "distance_m": -0.00010775542182024681
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999990718589,
+          "distance_m": -0.00010775541307211194
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999997914313,
+          "distance_m": -0.00010775541860993212
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025150841715562294,
+      "final_raw_gripper": 0.3143547773361206,
+      "final_issued_gripper": 0.3143547773361206,
+      "final_measured_gripper": 0.3143855333328247,
+      "final_robot_clearance": 0.11066139070740563,
+      "final_tray_support": 0.5886000000000001,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.013214170932769775,
+        0.0,
+        0.011637091636657715,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.011749133467674255,
+        0.040066301822662354,
+        0.0015847273170948029,
+        0.017749309539794922,
+        0.0015155207365751266,
+        0.0053141117095947266,
+        0.01090306043624878,
+        0.008273959159851074
+      ],
+      "last2s_raw_gripper_range": [
+        0.3083687424659729,
+        0.3241558372974396
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3107745945453644,
+          "all_grip_max": 0.7152961492538452,
+          "executed_prefix_grip_max": 0.32605794072151184,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.30985990166664124,
+          "all_grip_max": 0.7083033323287964,
+          "executed_prefix_grip_max": 0.3212369680404663,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3065970540046692,
+          "all_grip_max": 0.6866631507873535,
+          "executed_prefix_grip_max": 0.33081287145614624,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.30094635486602783,
+          "all_grip_max": 0.680030882358551,
+          "executed_prefix_grip_max": 0.3241558372974396,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.3083687424659729,
+          "all_grip_max": 0.7008267045021057,
+          "executed_prefix_grip_max": 0.32325097918510437,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 40,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610280",
+      "first_bilateral_s": 7.179999999999431,
+      "first_lift_s": 12.200000000000744,
+      "first_inside_tray_s": 16.96000000000148,
+      "first_tray_support_s": 21.119999999999173,
+      "first_all_other_success_conditions_s": 25.099999999996967,
+      "longest_all_other_success_conditions_s": 3.000000000000002,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.3211070099153784,
+        0.17372892026935363,
+        0.7898922445797828
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999977674093,
+          "distance_m": -0.00010775541453003137
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000021659308,
+          "distance_m": -0.00010775542573455858
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471500002232591,
+          "distance_m": -0.00010775542590436641
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999978340698,
+          "distance_m": -0.0001077554146998392
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.0255061923236454,
+      "final_raw_gripper": 0.31837180256843567,
+      "final_issued_gripper": 0.31837180256843567,
+      "final_measured_gripper": 0.31882739067077637,
+      "final_robot_clearance": 0.10184627299905717,
+      "final_tray_support": 0.5886,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.01339024305343628,
+        0.0,
+        0.011762738227844238,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.00895795226097107,
+        0.03918170928955078,
+        0.0016306806355714798,
+        0.020557522773742676,
+        0.0009514223784208298,
+        0.004945039749145508,
+        0.006901562213897705,
+        0.010656535625457764
+      ],
+      "last2s_raw_gripper_range": [
+        0.30806073546409607,
+        0.3272952437400818
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3107409179210663,
+          "all_grip_max": 0.7068606615066528,
+          "executed_prefix_grip_max": 0.32651880383491516,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.3085355758666992,
+          "all_grip_max": 0.6934921145439148,
+          "executed_prefix_grip_max": 0.3281945586204529,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3085164725780487,
+          "all_grip_max": 0.6829707026481628,
+          "executed_prefix_grip_max": 0.3246019780635834,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.3096570074558258,
+          "all_grip_max": 0.6926288604736328,
+          "executed_prefix_grip_max": 0.3272952437400818,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.30585673451423645,
+          "all_grip_max": 0.7303646206855774,
+          "executed_prefix_grip_max": 0.32678818702697754,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 42,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610282",
+      "first_bilateral_s": 7.419999999999405,
+      "first_lift_s": 12.480000000000837,
+      "first_inside_tray_s": 17.12000000000139,
+      "first_tray_support_s": 19.959999999999816,
+      "first_all_other_success_conditions_s": 20.159999999999705,
+      "longest_all_other_success_conditions_s": 3.980000000000003,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.32339234923896437,
+        0.1753168329750137,
+        0.7898922445797831
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999997098194,
+          "distance_m": -0.00010775541726932315
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000006058004,
+          "distance_m": -0.00010775542637008084
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.147150000029018,
+          "distance_m": -0.00010775542316424196
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999993941993,
+          "distance_m": -0.00010775541406348427
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025296444829279945,
+      "final_raw_gripper": 0.31375008821487427,
+      "final_issued_gripper": 0.31375008821487427,
+      "final_measured_gripper": 0.31620556116104126,
+      "final_robot_clearance": 0.1006578614172735,
+      "final_tray_support": 0.5885999999999999,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.005679070949554443,
+        0.0,
+        0.0021764039993286133,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.009561479091644287,
+        0.03534114360809326,
+        0.0011515840888023376,
+        0.01602017879486084,
+        0.001191951334476471,
+        0.003927707672119141,
+        0.011426448822021484,
+        0.007349073886871338
+      ],
+      "last2s_raw_gripper_range": [
+        0.31274545192718506,
+        0.32500261068344116
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.31072914600372314,
+          "all_grip_max": 0.7268024682998657,
+          "executed_prefix_grip_max": 0.32217252254486084,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.3101259469985962,
+          "all_grip_max": 0.7193116545677185,
+          "executed_prefix_grip_max": 0.3283991813659668,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3062696158885956,
+          "all_grip_max": 0.7491917014122009,
+          "executed_prefix_grip_max": 0.3266942799091339,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.3055523931980133,
+          "all_grip_max": 0.7271103858947754,
+          "executed_prefix_grip_max": 0.32433146238327026,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.3119065761566162,
+          "all_grip_max": 0.7284517288208008,
+          "executed_prefix_grip_max": 0.32455581426620483,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "normal",
+      "index": 44,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_frozen_independent50/seed742610284",
+      "first_bilateral_s": 7.27999999999942,
+      "first_lift_s": 12.34000000000079,
+      "first_inside_tray_s": 16.700000000001623,
+      "first_tray_support_s": 17.360000000001257,
+      "first_all_other_success_conditions_s": 17.540000000001157,
+      "longest_all_other_success_conditions_s": 12.379999999999825,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.2902303556784038,
+        0.1575071664247485,
+        0.7898922445797847
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000019516294,
+          "distance_m": -0.00010775542567472308
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999978070598,
+          "distance_m": -0.0001077554140807669
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999980483712,
+          "distance_m": -0.00010775541475582361
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471500002192941,
+          "distance_m": -0.0001077554263497798
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.024997878275459025,
+      "final_raw_gripper": 0.31278595328330994,
+      "final_issued_gripper": 0.31278595328330994,
+      "final_measured_gripper": 0.31247347593307495,
+      "final_robot_clearance": 0.10597686303638276,
+      "final_tray_support": 0.5886000000000001,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.009650170803070068,
+        0.0,
+        0.00859212875366211,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.01065237820148468,
+        0.037287235260009766,
+        0.0011533740907907486,
+        0.017891287803649902,
+        0.002514595165848732,
+        0.003101348876953125,
+        0.008287906646728516,
+        0.00592079758644104
+      ],
+      "last2s_raw_gripper_range": [
+        0.30787646770477295,
+        0.3231014907360077
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.310921847820282,
+          "all_grip_max": 0.6715364456176758,
+          "executed_prefix_grip_max": 0.32155871391296387,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.308515727519989,
+          "all_grip_max": 0.695136547088623,
+          "executed_prefix_grip_max": 0.32459166646003723,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.30592936277389526,
+          "all_grip_max": 0.6374162435531616,
+          "executed_prefix_grip_max": 0.3233911991119385,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.3073299825191498,
+          "all_grip_max": 0.6432867646217346,
+          "executed_prefix_grip_max": 0.32085180282592773,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.30739909410476685,
+          "all_grip_max": 0.6852163076400757,
+          "executed_prefix_grip_max": 0.31986409425735474,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 0,
+      "success": true,
+      "diagnosis": "完整成功",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison-finetuned33000-dim/seed742610240",
+      "first_bilateral_s": 7.2599999999994225,
+      "first_lift_s": 12.080000000000704,
+      "first_inside_tray_s": 17.020000000001446,
+      "first_tray_support_s": 22.599999999998353,
+      "first_all_other_success_conditions_s": 25.919999999996513,
+      "longest_all_other_success_conditions_s": 2.0200000000000014,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": true,
+        "gripper_target": true
+      },
+      "final_failed_conditions": [],
+      "final_cube_xyz_m": [
+        0.31393213850219276,
+        0.2243760023206164,
+        0.7898922445797832
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471499998034922,
+          "distance_m": -0.00010775541453992078
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999983058405,
+          "distance_m": -0.00010775541532256275
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000019650812,
+          "distance_m": -0.00010775542589345698
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000016941598,
+          "distance_m": -0.00010775542511081501
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.0799784577098909,
+      "final_raw_gripper": 1.0023975372314453,
+      "final_issued_gripper": 1.0,
+      "final_measured_gripper": 0.9997307062149048,
+      "final_robot_clearance": 0.1824695916900502,
+      "final_tray_support": 0.5886000000000005,
+      "last2s_raw_issued_max_abs_per_dim": null,
+      "last2s_measured_issued_max_abs_per_dim": null,
+      "last2s_raw_gripper_range": null,
+      "last5chunks": [
+        {
+          "file": "chunk-023.npz",
+          "time": 22.99999999999813,
+          "all_grip_min": 0.34706151485443115,
+          "all_grip_max": 1.0091898441314697,
+          "executed_prefix_grip_max": 0.7282787561416626,
+          "future_only_fullopen_indices": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-024.npz",
+          "time": 23.999999999997577,
+          "all_grip_min": 0.7004054188728333,
+          "all_grip_max": 1.0160200595855713,
+          "executed_prefix_grip_max": 1.0054421424865723,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.9937118291854858,
+          "all_grip_max": 1.0103566646575928,
+          "executed_prefix_grip_max": 1.0076197385787964,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.9789769053459167,
+          "all_grip_max": 1.010964274406433,
+          "executed_prefix_grip_max": 1.0084458589553833,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.9825856685638428,
+          "all_grip_max": 1.0127649307250977,
+          "executed_prefix_grip_max": 1.0127649307250977,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 40,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison-finetuned33000-dim/seed742610280",
+      "first_bilateral_s": 7.219999999999427,
+      "first_lift_s": 12.28000000000077,
+      "first_inside_tray_s": 17.040000000001434,
+      "first_tray_support_s": 20.41999999999956,
+      "first_all_other_success_conditions_s": 20.61999999999945,
+      "longest_all_other_success_conditions_s": 4.000000000000003,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.32733245264238875,
+        0.17829071378783976,
+        0.7898922445797832
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000005827583,
+          "distance_m": -0.00010775542517101214
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999993210454,
+          "distance_m": -0.00010775541444451731
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999994172404,
+          "distance_m": -0.0001077554152623448
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000006789558,
+          "distance_m": -0.00010775542598883964
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025528458551412697,
+      "final_raw_gripper": 0.31871387362480164,
+      "final_issued_gripper": 0.31871387362480164,
+      "final_measured_gripper": 0.31910574436187744,
+      "final_robot_clearance": 0.10184377705598291,
+      "final_tray_support": 0.5886,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.01275622844696045,
+        0.0,
+        0.01138615608215332,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.008676350116729736,
+        0.03877061605453491,
+        0.001524580642580986,
+        0.020527005195617676,
+        0.0009119082242250443,
+        0.004830598831176758,
+        0.007687926292419434,
+        0.009895145893096924
+      ],
+      "last2s_raw_gripper_range": [
+        0.3074658215045929,
+        0.3278293013572693
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3101459741592407,
+          "all_grip_max": 0.6726524829864502,
+          "executed_prefix_grip_max": 0.3253847062587738,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.30905115604400635,
+          "all_grip_max": 0.662147045135498,
+          "executed_prefix_grip_max": 0.3281945586204529,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3085164725780487,
+          "all_grip_max": 0.669213056564331,
+          "executed_prefix_grip_max": 0.32467636466026306,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.30906209349632263,
+          "all_grip_max": 0.6590156555175781,
+          "executed_prefix_grip_max": 0.3262680768966675,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.3070465922355652,
+          "all_grip_max": 0.7229652404785156,
+          "executed_prefix_grip_max": 0.3278293013572693,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 42,
+      "success": true,
+      "diagnosis": "完整成功",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison-finetuned33000-dim/seed742610282",
+      "first_bilateral_s": 7.419999999999405,
+      "first_lift_s": 12.260000000000764,
+      "first_inside_tray_s": 17.12000000000139,
+      "first_tray_support_s": 22.45999999999843,
+      "first_all_other_success_conditions_s": 25.81999999999657,
+      "longest_all_other_success_conditions_s": 2.0200000000000014,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": true,
+        "gripper_target": true
+      },
+      "final_failed_conditions": [],
+      "final_cube_xyz_m": [
+        0.31488891234725347,
+        0.19297795678320098,
+        0.7898922445797828
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000006356999,
+          "distance_m": -0.00010775542667347391
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999997475345,
+          "distance_m": -0.00010775541765306888
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999993643002,
+          "distance_m": -0.00010775541376086836
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000002524656,
+          "distance_m": -0.00010775542278127338
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.07997691316135083,
+      "final_raw_gripper": 1.0013586282730103,
+      "final_issued_gripper": 1.0,
+      "final_measured_gripper": 0.9997113943099976,
+      "final_robot_clearance": 0.18143008980981357,
+      "final_tray_support": 0.5886,
+      "last2s_raw_issued_max_abs_per_dim": null,
+      "last2s_measured_issued_max_abs_per_dim": null,
+      "last2s_raw_gripper_range": null,
+      "last5chunks": [
+        {
+          "file": "chunk-023.npz",
+          "time": 22.99999999999813,
+          "all_grip_min": 0.3388897180557251,
+          "all_grip_max": 1.0136269330978394,
+          "executed_prefix_grip_max": 0.7150964140892029,
+          "future_only_fullopen_indices": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-024.npz",
+          "time": 23.999999999997577,
+          "all_grip_min": 0.7004698514938354,
+          "all_grip_max": 1.0114840269088745,
+          "executed_prefix_grip_max": 1.001875400543213,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.9902797937393188,
+          "all_grip_max": 1.0115253925323486,
+          "executed_prefix_grip_max": 1.007088303565979,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.9704017639160156,
+          "all_grip_max": 1.0087220668792725,
+          "executed_prefix_grip_max": 1.0087220668792725,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33
+          ]
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.9884514808654785,
+          "all_grip_max": 1.0093117952346802,
+          "executed_prefix_grip_max": 1.0045185089111328,
+          "future_only_fullopen_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ]
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 44,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison-finetuned33000-dim/seed742610284",
+      "first_bilateral_s": 7.239999999999425,
+      "first_lift_s": 12.360000000000797,
+      "first_inside_tray_s": 16.820000000001556,
+      "first_tray_support_s": 17.000000000001457,
+      "first_all_other_success_conditions_s": 17.2800000000013,
+      "longest_all_other_success_conditions_s": 12.739999999999817,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.2843113280653495,
+        0.1453124672460449,
+        0.7898922445797846
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000008636434,
+          "distance_m": -0.00010775542231930786
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999969750986,
+          "distance_m": -0.0001077554128462432
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999991363567,
+          "distance_m": -0.00010775541811142618
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471500003024901,
+          "distance_m": -0.00010775542758449085
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.02500045548869283,
+      "final_raw_gripper": 0.3130238950252533,
+      "final_issued_gripper": 0.3130238950252533,
+      "final_measured_gripper": 0.31250569224357605,
+      "final_robot_clearance": 0.11068484989954475,
+      "final_tray_support": 0.5886,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.00992882251739502,
+        0.0,
+        0.009304523468017578,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.011128038167953491,
+        0.03713744878768921,
+        0.0010537393391132355,
+        0.01804983615875244,
+        0.0023824330419301987,
+        0.0029942989349365234,
+        0.00879758596420288,
+        0.005900293588638306
+      ],
+      "last2s_raw_gripper_range": [
+        0.307578980922699,
+        0.32277265191078186
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3107229769229889,
+          "all_grip_max": 0.6629844307899475,
+          "executed_prefix_grip_max": 0.3212612271308899,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.30855506658554077,
+          "all_grip_max": 0.6862127184867859,
+          "executed_prefix_grip_max": 0.3245544731616974,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3065243065357208,
+          "all_grip_max": 0.6761606931686401,
+          "executed_prefix_grip_max": 0.3229801654815674,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.3082233965396881,
+          "all_grip_max": 0.6804695129394531,
+          "executed_prefix_grip_max": 0.3205450475215912,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.307578980922699,
+          "all_grip_max": 0.6648401618003845,
+          "executed_prefix_grip_max": 0.3184511363506317,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 2,
+      "success": false,
+      "diagnosis": "搬运或入盘未完成",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison200_extension_v1-finetuned33000-dim/seed742610242",
+      "first_bilateral_s": 7.399999999999407,
+      "first_lift_s": 12.680000000000904,
+      "first_inside_tray_s": null,
+      "first_tray_support_s": null,
+      "first_all_other_success_conditions_s": null,
+      "longest_all_other_success_conditions_s": 0,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": false,
+        "tray_height": false,
+        "inside_tray": false,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "tray_support",
+        "tray_height",
+        "inside_tray",
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.2691093341455883,
+        0.06396773683282304,
+        0.7748922445797836
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "normal_N": 0.14714999996533978,
+          "distance_m": -0.00010775541810364082
+        },
+        {
+          "geoms": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "normal_N": 0.1471499998879846,
+          "distance_m": -0.00010775541338845509
+        },
+        {
+          "geoms": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "normal_N": 0.14715000003466028,
+          "distance_m": -0.00010775542232908468
+        },
+        {
+          "geoms": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "normal_N": 0.1471500001120154,
+          "distance_m": -0.00010775542704427042
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025435416203400275,
+      "final_raw_gripper": 0.3198007345199585,
+      "final_issued_gripper": 0.3198007345199585,
+      "final_measured_gripper": 0.31794270873069763,
+      "final_robot_clearance": 0.17075702662051057,
+      "final_tray_support": 0.0,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.016396701335906982,
+        0.0,
+        0.011345863342285156,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.011759743094444275,
+        0.041809678077697754,
+        0.000997474417090416,
+        0.0186614990234375,
+        0.0011909473687410355,
+        0.004448652267456055,
+        0.013342320919036865,
+        0.007686913013458252
+      ],
+      "last2s_raw_gripper_range": [
+        0.3082902133464813,
+        0.32276567816734314
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3046707212924957,
+          "all_grip_max": 0.3525424003601074,
+          "executed_prefix_grip_max": 0.32401710748672485,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.3065870404243469,
+          "all_grip_max": 0.4692686200141907,
+          "executed_prefix_grip_max": 0.32282862067222595,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3062114119529724,
+          "all_grip_max": 0.4578428268432617,
+          "executed_prefix_grip_max": 0.3296174108982086,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.3085257411003113,
+          "all_grip_max": 0.4542502462863922,
+          "executed_prefix_grip_max": 0.32276567816734314,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.3052253723144531,
+          "all_grip_max": 0.4040052890777588,
+          "executed_prefix_grip_max": 0.32254064083099365,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    },
+    {
+      "model": "finetuned33000",
+      "lighting": "dim",
+      "index": 10,
+      "success": false,
+      "diagnosis": "入盘后张开夹爪不足",
+      "source": "<ORIGINAL_RUNS>/rollouts/target80_finish_v1_comparison200_extension_v1-finetuned33000-dim/seed742610250",
+      "first_bilateral_s": 7.27999999999942,
+      "first_lift_s": 12.40000000000081,
+      "first_inside_tray_s": 17.14000000000138,
+      "first_tray_support_s": 18.180000000000803,
+      "first_all_other_success_conditions_s": 18.44000000000066,
+      "longest_all_other_success_conditions_s": 11.579999999999842,
+      "final_conditions": {
+        "prior_effective_lift": true,
+        "tray_support": true,
+        "tray_height": true,
+        "inside_tray": true,
+        "no_robot_contact": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "robot_clearance": true,
+        "gripper_width": false,
+        "gripper_target": false
+      },
+      "final_failed_conditions": [
+        "gripper_width",
+        "gripper_target"
+      ],
+      "final_cube_xyz_m": [
+        0.2997523507059719,
+        0.17291407406644047,
+        0.7898922445797841
+      ],
+      "final_cube_contacts": [
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471499999674365,
+          "distance_m": -0.00010775541860412414
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14715000014232746,
+          "distance_m": -0.00010775542725981744
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.1471500000325636,
+          "distance_m": -0.00010775542182744257
+        },
+        {
+          "geoms": [
+            "red_cube_geom",
+            "tray_base"
+          ],
+          "normal_N": 0.14714999985767263,
+          "distance_m": -0.00010775541317174927
+        }
+      ],
+      "final_robot_contacts": [],
+      "final_gripper_width_m": 0.025194388107650907,
+      "final_raw_gripper": 0.3151579201221466,
+      "final_issued_gripper": 0.3151579201221466,
+      "final_measured_gripper": 0.3149298429489136,
+      "final_robot_clearance": 0.10220599239881918,
+      "final_tray_support": 0.5886000000000002,
+      "last2s_raw_issued_max_abs_per_dim": [
+        0.0,
+        0.013255774974822998,
+        0.0,
+        0.011230111122131348,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last2s_measured_issued_max_abs_per_dim": [
+        0.011745467782020569,
+        0.039968252182006836,
+        0.0013907849788665771,
+        0.017371773719787598,
+        0.001569526270031929,
+        0.005540609359741211,
+        0.0110853910446167,
+        0.009212911128997803
+      ],
+      "last2s_raw_gripper_range": [
+        0.30717888474464417,
+        0.32460203766822815
+      ],
+      "last5chunks": [
+        {
+          "file": "chunk-025.npz",
+          "time": 24.999999999997023,
+          "all_grip_min": 0.3105393350124359,
+          "all_grip_max": 0.7280126810073853,
+          "executed_prefix_grip_max": 0.32512953877449036,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-026.npz",
+          "time": 25.99999999999647,
+          "all_grip_min": 0.3110497295856476,
+          "all_grip_max": 0.7413507103919983,
+          "executed_prefix_grip_max": 0.32134851813316345,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-027.npz",
+          "time": 26.999999999995914,
+          "all_grip_min": 0.3042173683643341,
+          "all_grip_max": 0.7045108675956726,
+          "executed_prefix_grip_max": 0.3300692141056061,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-028.npz",
+          "time": 27.99999999999536,
+          "all_grip_min": 0.30035144090652466,
+          "all_grip_max": 0.7021918296813965,
+          "executed_prefix_grip_max": 0.32460203766822815,
+          "future_only_fullopen_indices": []
+        },
+        {
+          "file": "chunk-029.npz",
+          "time": 28.999999999994806,
+          "all_grip_min": 0.30717888474464417,
+          "all_grip_max": 0.7049911618232727,
+          "executed_prefix_grip_max": 0.32354846596717834,
+          "future_only_fullopen_indices": []
+        }
+      ],
+      "chunk_time_diffs": [
+        1.0
+      ],
+      "command_time_diffs": [
+        0.02
+      ]
+    }
+  ]
+}

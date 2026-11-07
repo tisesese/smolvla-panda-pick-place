@@ -1,0 +1,9 @@
+model,lighting,category,attempts,successes,success_rate,mean_success_sim_s
+finetuned33000,normal,all,50,45,0.9,27.984444444444446
+finetuned33000,normal,interior,40,38,0.95,27.977894736842106
+finetuned33000,normal,boundary,10,7,0.7,28.02
+base,normal,all,50,0,0.0,
+finetuned33000,dim,all,50,46,0.92,27.985652173913042
+finetuned33000,dim,interior,40,38,0.95,28.00263157894737
+finetuned33000,dim,boundary,10,8,0.8,27.905
+base,dim,all,50,0,0.0,

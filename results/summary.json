@@ -1,0 +1,74 @@
+[
+  {
+    "model": "finetuned33000",
+    "lighting": "normal",
+    "category": "all",
+    "attempts": 50,
+    "successes": 45,
+    "success_rate": 0.9,
+    "mean_success_sim_s": 27.984444444444446
+  },
+  {
+    "model": "finetuned33000",
+    "lighting": "normal",
+    "category": "interior",
+    "attempts": 40,
+    "successes": 38,
+    "success_rate": 0.95,
+    "mean_success_sim_s": 27.977894736842106
+  },
+  {
+    "model": "finetuned33000",
+    "lighting": "normal",
+    "category": "boundary",
+    "attempts": 10,
+    "successes": 7,
+    "success_rate": 0.7,
+    "mean_success_sim_s": 28.02
+  },
+  {
+    "model": "base",
+    "lighting": "normal",
+    "category": "all",
+    "attempts": 50,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_success_sim_s": null
+  },
+  {
+    "model": "finetuned33000",
+    "lighting": "dim",
+    "category": "all",
+    "attempts": 50,
+    "successes": 46,
+    "success_rate": 0.92,
+    "mean_success_sim_s": 27.985652173913042
+  },
+  {
+    "model": "finetuned33000",
+    "lighting": "dim",
+    "category": "interior",
+    "attempts": 40,
+    "successes": 38,
+    "success_rate": 0.95,
+    "mean_success_sim_s": 28.00263157894737
+  },
+  {
+    "model": "finetuned33000",
+    "lighting": "dim",
+    "category": "boundary",
+    "attempts": 10,
+    "successes": 8,
+    "success_rate": 0.8,
+    "mean_success_sim_s": 27.905
+  },
+  {
+    "model": "base",
+    "lighting": "dim",
+    "category": "all",
+    "attempts": 50,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_success_sim_s": null
+  }
+]

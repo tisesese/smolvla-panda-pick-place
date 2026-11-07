@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "episodes": 100,
+  "all_RGB_and_numeric_rows_visited": true,
+  "cache_peak": "at most5 episode Arrow views, released after independent process exits",
+  "no_old_cache_cleaning": true
+}

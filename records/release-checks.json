@@ -1,0 +1,36 @@
+{
+  "publication_date": "2026-11-07",
+  "historical_trials_checked": 200,
+  "historical_numerical_fields_unchanged": true,
+  "train_validation_split": [
+    80,
+    20
+  ],
+  "sampling_plans_checked": {
+    "focused": 20480,
+    "lookahead": 20480,
+    "completion": 20480
+  },
+  "scene_and_meshes_checked": true,
+  "native_interface_check": {
+    "scene": true,
+    "state_dimensions": 8,
+    "RGB_shape": [
+      480,
+      640,
+      3
+    ],
+    "physics_Hz": 500,
+    "control_Hz": 50,
+    "model_check": true,
+    "task_success_evaluation": false,
+    "strict_weights_loaded": true,
+    "processor_batch_prepared": true
+  },
+  "python_syntax_checked": true,
+  "source_experiment_modified": false,
+  "full_training_rerun": false,
+  "formal_200_trials_rerun": false,
+  "private_repo_requested": true,
+  "weights_and_dataset_excluded": true
+}
